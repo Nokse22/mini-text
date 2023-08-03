@@ -13,11 +13,11 @@ if desktop_utils.found()
 endif
 
 appstream_file = i18n.merge_file(
-        input: 'io.github.nokse22.minitext.metainfo.xml.in',
-       output: 'io.github.nokse22.minitext.metainfo.xml',
+        input: 'io.github.nokse22.minitext.appdata.xml.in',
+       output: 'io.github.nokse22.minitext.appdata.xml',
        po_dir: '../po',
       install: true,
-  install_dir: join_paths(get_option('datadir'), 'metainfo')
+  install_dir: join_paths(get_option('datadir'), 'appdata')
 )
 
 appstream_util = find_program('appstream-util', required: false)

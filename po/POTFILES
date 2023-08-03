@@ -1,5 +1,5 @@
 data/io.github.nokse22.minitext.desktop.in
-data/io.github.nokse22.minitext.metainfo.xml.in
+data/io.github.nokse22.minitext.appdata.xml.in
 data/io.github.nokse22.minitext.gschema.xml
 src/main.py
 src/window.py
