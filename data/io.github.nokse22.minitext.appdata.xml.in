@@ -3,8 +3,9 @@
 	<id>io.github.nokse22.minitext.desktop</id>
 	<metadata_license>CC0-1.0</metadata_license>
 	<project_license>GPL-3.0-or-later</project_license>
+	<name>Mini Text</name>
 	<description>
-	  <p>A very small and minimalistic text editor</p>
+	  <p>A very small and minimalistic text editor. Best used with 'Always on Top' and/or 'Always on Visible Workspace'</p>
 	</description>
 <summary>A very small and minimalistic text editor</summary>
 
