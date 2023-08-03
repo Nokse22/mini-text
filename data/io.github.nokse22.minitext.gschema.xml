@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="mini-text">
+	<schema id="io.github.nokse22.minitext" path="/io/github/nokse22/minitext/">
+	<key name="window-width" type="i">
+    <default>600</default>
+  </key>
+  <key name="window-height" type="i">
+    <default>400</default>
+  </key>
+	</schema>
+</schemalist>

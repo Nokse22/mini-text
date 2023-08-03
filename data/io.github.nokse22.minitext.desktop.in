@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Mini Text
+Exec=mini-text
+Icon=io.github.nokse22.minitext
+Terminal=false
+Type=Application
+Categories=GTK;
+StartupNotify=true
