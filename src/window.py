@@ -45,7 +45,8 @@ class MiniTextWindow(Adw.ApplicationWindow):
         start = text_buffer.get_start_iter()
         end = text_buffer.get_end_iter()
         text = text_buffer.get_text(start, end, False)
-        self.copy_to_clipboard(text)
+        if text.strip() != "":
+            self.copy_to_clipboard(text)
 
     @Gtk.Template.Callback("on_paste_action")
     def on_paste_action(self, *args):
