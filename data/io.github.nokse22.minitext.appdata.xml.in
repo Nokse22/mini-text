@@ -5,9 +5,9 @@
 	<project_license>GPL-3.0-or-later</project_license>
 	<name>Mini Text</name>
 	<description>
-	  <p>A very small and minimalistic text editor. Best used with 'Always on Top' and/or 'Always on Visible Workspace'</p>
+	  <p>A very small and minimalistic text editor. Best used with 'Always on Top' and/or 'Always on Visible Workspace'. It doesn't have any feature, it doesn't save. It is meant to be used as a place where to edit text to be pasted.</p>
 	</description>
-<summary>A very small and minimalistic text editor</summary>
+<summary>A very small and minimalistic text view</summary>
 
 	<content_rating type="oars-1.0">
   </content_rating>
