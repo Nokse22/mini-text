@@ -5,9 +5,9 @@
 	<project_license>GPL-3.0-or-later</project_license>
 	<name>Mini Text</name>
 	<description>
-	  <p>A very small and minimalistic text editor. Best used with 'Always on Top' and/or 'Always on Visible Workspace'. It doesn't have any feature, it doesn't save. It is meant to be used as a place where to edit text to be pasted.</p>
+	  <p>A very small and minimalistic text viewer with minimal editing capabilities. Best used with 'Always on Top' and/or 'Always on Visible Workspace'. It doesn't save or load files, just your clipboard. It is meant to be used as a place where to edit text to be pasted.</p>
 	</description>
-<summary>Copy, polish and paste.</summary>
+  <summary>Ephemeral text</summary>
 
 	<content_rating type="oars-1.0">
   </content_rating>
@@ -18,6 +18,11 @@
   <url type="bugtracker">https://github.com/Nokse22/mini-text/issues</url>
 
   <releases>
+    <release version="0.1.5" date="2023-08-06">
+    		<description>
+			<p>Increased padding</p>
+		</description>
+  	</release>
   	<release version="0.1.4" date="2023-08-04">
     		<description>
 			<p>Added buttons to quickly copy and paste</p>

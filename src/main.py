@@ -23,7 +23,7 @@ import gi
 gi.require_version('Gtk', '4.0')
 gi.require_version('Adw', '1')
 
-from gi.repository import Gtk, Gio, Adw
+from gi.repository import Gtk, Gio, Adw, Gdk
 from .window import MiniTextWindow
 
 
@@ -33,6 +33,20 @@ class MiniTextApplication(Adw.Application):
     def __init__(self):
         super().__init__(application_id='io.github.nokse22.minitext',
                          flags=Gio.ApplicationFlags.DEFAULT_FLAGS)
+
+        css = '''
+        .textviewer{
+            padding: 12px;
+        }
+        '''
+        css_provider = Gtk.CssProvider()
+        css_provider.load_from_data(css, -1)
+        Gtk.StyleContext.add_provider_for_display(
+            Gdk.Display.get_default(),
+            css_provider,
+            Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
+        )
+
         self.create_action('quit', lambda *_: self.quit(), ['<primary>q'])
         self.create_action('about', self.on_about_action)
         self.create_action('preferences', self.on_preferences_action)

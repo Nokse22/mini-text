@@ -11,19 +11,14 @@
       <object class="GtkWindowHandle">
         <child>
           <object class="GtkOverlay">
-
             <child type="overlay">
               <object class="GtkScrolledWindow">
                 <property name="margin-end">46</property>
                 <child>
                   <object class="GtkBox">
-
                     <child>
                       <object class="GtkTextView" id="text_view">
-                        <property name="margin-top">6</property>
-                        <property name="margin-bottom">6</property>
-                        <property name="margin-start">6</property>
-                        <property name="css-classes">flat</property>
+                        <property name="css-classes">textviewer</property>
                         <property name="wrap-mode">word-char</property>
                         <property name="hexpand">true</property>
                       </object>
@@ -32,7 +27,6 @@
                       <object class="GtkSeparator">
                       </object>
                     </child>
-
                   </object>
                 </child>
               </object>
@@ -41,7 +35,6 @@
               <object class="GtkBox">
                 <property name="orientation">1</property>
                 <property name="valign">fill</property>
-
                 <child>
                   <object class="AdwHeaderBar">
                     <property name="valign">start</property>
