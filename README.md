@@ -7,7 +7,7 @@
 
   
 <p>
-An extremely simple Gtk4/Libadwaita that shows a text view to copy/paste and edit text.
+An extremely simple Gtk4/Libadwaita app that shows a text view to copy/paste and edit text.
   
 Best used with 'Always on Top' and/or 'Always on Visible Workspace'
   </p>

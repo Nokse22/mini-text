@@ -7,7 +7,7 @@
 	<description>
 	  <p>A very small and minimalistic text editor. Best used with 'Always on Top' and/or 'Always on Visible Workspace'. It doesn't have any feature, it doesn't save. It is meant to be used as a place where to edit text to be pasted.</p>
 	</description>
-<summary>A very small and minimalistic text view</summary>
+<summary>Copy, polish and paste.</summary>
 
 	<content_rating type="oars-1.0">
   </content_rating>
@@ -18,7 +18,12 @@
   <url type="bugtracker">https://github.com/Nokse22/mini-text/issues</url>
 
   <releases>
-  	<release version="0.1.1" date="2023-08-04">
+  	<release version="0.1.4" date="2023-08-04">
+    		<description>
+			<p>Added buttons to quickly copy and paste</p>
+		</description>
+  	</release>
+  	<release version="0.1.3" date="2023-08-04">
     		<description>
 			<p>First release</p>
 		</description>
