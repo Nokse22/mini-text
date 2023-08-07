@@ -50,6 +50,21 @@ class MiniTextApplication(Adw.Application):
         self.create_action('quit', lambda *_: self.quit(), ['<primary>q'])
         self.create_action('about', self.on_about_action)
         self.create_action('preferences', self.on_preferences_action)
+        self.create_action('increase-font', self.on_increase_font_action, ['<control>plus'])
+        self.create_action('decrease-font', self.on_decrease_font_action, ['<control>minus'])
+
+    def on_increase_font_action(self, widget, _):
+        size = self.win.settings.get_int('font-size')
+        self.win.settings.set_int('font-size', size + 1)
+        self.win.change_font()
+        print(size + 1)
+
+    def on_decrease_font_action(self, widget, _):
+        size = self.win.settings.get_int('font-size')
+        if size > 10:
+            self.win.settings.set_int('font-size', size - 1)
+            self.win.change_font()
+            print(size - 1)
 
     def do_activate(self):
         """Called when the application is activated.
@@ -57,10 +72,10 @@ class MiniTextApplication(Adw.Application):
         We raise the application's main window, creating it if
         necessary.
         """
-        win = self.props.active_window
-        if not win:
-            win = MiniTextWindow(application=self)
-        win.present()
+        self.win = self.props.active_window
+        if not self.win:
+            self.win = MiniTextWindow(application=self)
+        self.win.present()
 
     def on_about_action(self, widget, _):
         """Callback for the app.about action."""

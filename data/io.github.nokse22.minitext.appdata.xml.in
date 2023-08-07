@@ -7,7 +7,7 @@
 	<description>
 	  <p>A very small and minimalistic text viewer with minimal editing capabilities. Best used with 'Always on Top' and/or 'Always on Visible Workspace'. It doesn't save or load files, just your clipboard. It is meant to be used as a place where to edit text to be pasted.</p>
 	</description>
-  <summary>Ephemeral text</summary>
+  <summary>Ephemeral text edits</summary>
 
 	<content_rating type="oars-1.0">
   </content_rating>

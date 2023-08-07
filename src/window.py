@@ -38,6 +38,22 @@ class MiniTextWindow(Adw.ApplicationWindow):
             "window-height", self, "default-height", Gio.SettingsBindFlags.DEFAULT
         )
 
+        self.change_font()
+
+    def change_font(self):
+        css_data = f"""
+            textview {{
+                font-size: {self.settings.get_int('font-size')}pt;
+            }}
+        """
+
+        style_provider = Gtk.CssProvider()
+        style_provider.load_from_data(css_data, -1)
+
+        # Apply the theme to the GTK app
+        context = self.text_view.get_style_context()
+        context.add_provider(style_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION)
+
     @Gtk.Template.Callback("on_copy_action")
     def on_copy_action(self, *args):
         print("copy")

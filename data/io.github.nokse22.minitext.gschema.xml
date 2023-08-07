@@ -7,5 +7,8 @@
   <key name="window-height" type="i">
     <default>400</default>
   </key>
+	<key name="font-size" type="i">
+    <default>12</default>
+  </key>
 	</schema>
 </schemalist>
