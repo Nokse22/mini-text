@@ -25,6 +25,7 @@ class MiniTextWindow(Adw.ApplicationWindow):
     __gtype_name__ = 'MiniTextWindow'
 
     text_view = Gtk.Template.Child("text_view")
+    controls = Gtk.Template.Child("controls")
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)

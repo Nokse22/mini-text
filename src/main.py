@@ -77,6 +77,11 @@ class MiniTextApplication(Adw.Application):
             self.win = MiniTextWindow(application=self)
         self.win.present()
 
+        if 'empty' in self.win.controls.get_css_classes():
+            self.win.controls.set_side(Gtk.PackType.END)
+        else:
+            self.win.controls.set_side(Gtk.PackType.START)
+
     def on_about_action(self, widget, _):
         """Callback for the app.about action."""
         about = Adw.AboutWindow(transient_for=self.props.active_window,
