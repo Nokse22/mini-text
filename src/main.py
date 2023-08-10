@@ -77,6 +77,10 @@ class MiniTextApplication(Adw.Application):
             self.win = MiniTextWindow(application=self)
         self.win.present()
 
+        self.update_controls()
+
+    def update_controls(self, a=None, b=None):
+        print("update")
         if 'empty' in self.win.controls.get_css_classes():
             self.win.controls.set_side(Gtk.PackType.END)
         else:
@@ -117,3 +121,4 @@ def main(version):
     """The application's entry point."""
     app = MiniTextApplication()
     return app.run(sys.argv)
+
