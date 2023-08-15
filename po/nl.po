@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the mini-text package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mini-text\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-14 18:05+0200\n"
+"PO-Revision-Date: 2023-08-14 20:40+0200\n"
+"Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#: data/io.github.nokse22.minitext.desktop.in:3
+#: data/io.github.nokse22.minitext.appdata.xml.in:6
+msgid "Mini Text"
+msgstr "Minitekst"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:8
+msgid ""
+"A very small and minimalistic text viewer with minimal editing capabilities. "
+"Best used with 'Always on Top' and/or 'Always on Visible Workspace'. It "
+"doesn't save or load files, just your clipboard. It is meant to be used as a "
+"place where to edit text to be pasted."
+msgstr ""
+"Een hele kleine, minimalistische tekstbewerker met weinig "
+"bewerkmogelĳkheiden. De toepassing laadt alléén tekst van uw klembord, dus "
+"tekst kan niet worden geladen uit of opgeslagen in een bestand. De "
+"toepassing is slechts bedoeld voor het bewerken van elders te plakken test. "
+"Tip: werkt het beste i.c.m. ‘Altĳd bovenop’ en/of ‘Altĳd op zichtbaar "
+"werkblad’."
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:10
+msgid "Ephemeral text edits"
+msgstr "Vlugge tekstbewerkingen"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:11
+msgid "Nokse"
+msgstr "Nokse"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:23
+msgid "Bug fixes"
+msgstr "Opgelost: bugs"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:28
+msgid "Increase/descrease font size with ctrl+/-"
+msgstr "Vergroot/Verklein tekst met behulp van Ctrl+/-"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:33
+msgid "Increased padding"
+msgstr "Verhoogd: opvulling"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:38
+msgid "Added buttons to quickly copy and paste"
+msgstr "Nieuw: knoppen om snel te kopiëren en plakken"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:43
+msgid "First release"
+msgstr "De allereerste versie"
+
+#: src/window.ui:98
+msgid "_Preferences"
+msgstr "_Voorkeuren"
+
+#: src/window.ui:102
+msgid "_Keyboard Shortcuts"
+msgstr "_Sneltoetsen"
+
+#: src/window.ui:106
+msgid "_About Mini-text"
+msgstr "_Over Minitekst"
