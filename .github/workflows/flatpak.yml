@@ -2,7 +2,7 @@ on:
   push:
     paths-ignore:
       - '**/README.md'
-    branches: [main]
+    branches: [master]
   pull_request:
 name: Flatpak
 jobs:
