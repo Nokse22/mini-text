@@ -21,13 +21,23 @@ Use Ctrl+Plus and Ctrl+Minus to change the font size.
   <url type="bugtracker">https://github.com/Nokse22/mini-text/issues</url>
 
   <releases>
-    <release version="0.1.6" date="2023-09-01">
+    <release version="0.1.8" date="2023-09-01">
     	<description>
 			  <p>Fixed bug with shortcuts</p>
     	  <p>Draggable only by the side</p>
 		  </description>
   	</release>
-    <release version="0.1.5" date="2023-08-06">
+  	<release version="0.1.7" date="2023-08-10">
+    	<description>
+			  <p>Bug fixes</p>
+		  </description>
+  	</release>
+  	<release version="0.1.6" date="2023-08-08">
+    	<description>
+		    <p>Increase/decrease font size with ctrl+/-</p>
+	    </description>
+  	</release>
+	  <release version="0.1.5" date="2023-08-06">
     	<description>
 			  <p>Increased padding</p>
 		  </description>
