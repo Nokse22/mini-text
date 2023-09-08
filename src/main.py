@@ -52,6 +52,7 @@ class MiniTextApplication(Adw.Application):
         # self.create_action('preferences', self.on_preferences_action, ['<primary>comma'])
         self.create_action('increase-font', self.on_increase_font_action, ['<control>plus', '<control>equal', '<control>KP_Add'])
         self.create_action('decrease-font', self.on_decrease_font_action, ['<control>minus', '<control>KP_Subtract'])
+        self.create_action('reset-font', self.on_reset_font_action, ['<control>0', '<control>KP_0'])
 
     def on_increase_font_action(self, widget, _):
         size = self.win.settings.get_int('font-size')
@@ -65,6 +66,12 @@ class MiniTextApplication(Adw.Application):
             self.win.settings.set_int('font-size', size - 1)
             self.win.change_font()
             print(size - 1)
+    def on_reset_font_action(self, widget, _):
+        size = self.win.settings.get_int('font-size')
+        if size > 10:
+            self.win.settings.set_int('font-size', 10)
+            self.win.change_font()
+            print(10)
 
     def do_activate(self):
         """Called when the application is activated.
