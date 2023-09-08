@@ -51,7 +51,6 @@ class MiniTextApplication(Adw.Application):
         self.create_action('about', self.on_about_action)
         self.create_action('preferences', self.on_preferences_action)
         self.create_action('increase-font', self.on_increase_font_action, ['<control>plus'])
-        self.create_action('increase-font-too', self.on_increase_font_action, ['<control>='])
         self.create_action('decrease-font', self.on_decrease_font_action, ['<control>minus'])
 
     def on_increase_font_action(self, widget, _):
