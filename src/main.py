@@ -66,6 +66,7 @@ class MiniTextApplication(Adw.Application):
             self.win.settings.set_int('font-size', size - 1)
             self.win.change_font()
             print(size - 1)
+            
     def on_reset_font_action(self, widget, _):
         size = self.win.settings.get_int('font-size')
         if size > 10:
@@ -93,7 +94,7 @@ class MiniTextApplication(Adw.Application):
         else:
             self.win.controls.set_side(Gtk.PackType.START)
 
-    def on_about_action(self, widget, _):
+    def on_about_action(self, *args):
         """Callback for the app.about action."""
         about = Adw.AboutWindow(transient_for=self.props.active_window,
                                 application_name='Mini Text',
@@ -102,6 +103,10 @@ class MiniTextApplication(Adw.Application):
                                 version='0.1.6',
                                 developers=['Nokse'],
                                 copyright='© 2023 Nokse')
+        
+        # Translator credits. Replace "translator-credits" with your name/username, and optionally an email or URL. 
+        # One name per line, please do not remove previous names.
+        about.set_translator_credits(_("translator-credits"))
         about.present()
 
     # def on_preferences_action(self, widget, _):
