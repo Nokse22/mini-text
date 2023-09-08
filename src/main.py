@@ -49,9 +49,9 @@ class MiniTextApplication(Adw.Application):
 
         self.create_action('quit', lambda *_: self.quit(), ['<primary>q'])
         self.create_action('about', self.on_about_action)
-        self.create_action('preferences', self.on_preferences_action)
         self.create_action('increase-font', self.on_increase_font_action, ['<control>plus'])
         self.create_action('decrease-font', self.on_decrease_font_action, ['<control>minus'])
+        # self.create_action('preferences', self.on_preferences_action, ['<primary>comma'])
 
     def on_increase_font_action(self, widget, _):
         size = self.win.settings.get_int('font-size')
@@ -97,9 +97,9 @@ class MiniTextApplication(Adw.Application):
                                 copyright='© 2023 Nokse')
         about.present()
 
-    def on_preferences_action(self, widget, _):
-        """Callback for the app.preferences action."""
-        print('app.preferences action activated')
+    # def on_preferences_action(self, widget, _):
+    #     """Callback for the app.preferences action."""
+    #     print('app.preferences action activated')
 
     def create_action(self, name, callback, shortcuts=None):
         """Add an application action.
