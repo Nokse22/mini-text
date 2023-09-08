@@ -1,6 +1,6 @@
 data/io.github.nokse22.minitext.desktop.in
 data/io.github.nokse22.minitext.appdata.xml.in
-data/io.github.nokse22.minitext.gschema.xml
+src/gtk/help-overlay.ui
 src/main.py
 src/window.py
 src/window.ui
