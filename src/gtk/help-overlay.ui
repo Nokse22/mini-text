@@ -21,6 +21,35 @@
                 <property name="action-name">app.quit</property>
               </object>
             </child>
+            <child>
+              <object class="GtkShortcutsShortcut">
+                <property name="title" translatable="yes" context="shortcut window">Show About</property>
+                <property name="action-name">app.about</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="GtkShortcutsGroup">
+            <property name="title" translatable="yes" context="shortcut window">Editor</property>
+            <child>
+              <object class="GtkShortcutsShortcut">
+                <property name="title" translatable="yes" context="shortcut window">Increase Font Size</property>
+                <property name="accelerator">&lt;ctrl&gt;plus</property>
+              </object>
+            </child>
+            <child>
+              <object class="GtkShortcutsShortcut">
+                <property name="title" translatable="yes" context="shortcut window">Decrease Font Size</property>
+                <property name="accelerator">&lt;ctrl&gt;minus</property>
+              </object>
+            </child>
+            <child>
+              <object class="GtkShortcutsShortcut">
+                <property name="title" translatable="yes" context="shortcut window">Reset Font Size</property>
+                <property name="accelerator">&lt;ctrl&gt;0</property>
+              </object>
+            </child>
           </object>
         </child>
       </object>

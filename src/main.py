@@ -48,11 +48,11 @@ class MiniTextApplication(Adw.Application):
         )
 
         self.create_action('quit', lambda *_: self.quit(), ['<primary>q'])
-        self.create_action('about', self.on_about_action)
-        self.create_action('preferences', self.on_preferences_action)
-        self.create_action('increase-font', self.on_increase_font_action, ['<control>plus'])
-        self.create_action('increase-font-too', self.on_increase_font_action, ['<control>='])
-        self.create_action('decrease-font', self.on_decrease_font_action, ['<control>minus'])
+        self.create_action('about', self.on_about_action, ['F1'])
+        # self.create_action('preferences', self.on_preferences_action, ['<primary>comma'])
+        self.create_action('increase-font', self.on_increase_font_action, ['<control>plus', '<control>equal', '<control>KP_Add'])
+        self.create_action('decrease-font', self.on_decrease_font_action, ['<control>minus', '<control>KP_Subtract'])
+        self.create_action('reset-font', self.on_reset_font_action, ['<control>0', '<control>KP_0'])
 
     def on_increase_font_action(self, widget, _):
         size = self.win.settings.get_int('font-size')
@@ -66,6 +66,13 @@ class MiniTextApplication(Adw.Application):
             self.win.settings.set_int('font-size', size - 1)
             self.win.change_font()
             print(size - 1)
+            
+    def on_reset_font_action(self, widget, _):
+        size = self.win.settings.get_int('font-size')
+        if size > 10:
+            self.win.settings.set_int('font-size', 10)
+            self.win.change_font()
+            print(10)
 
     def do_activate(self):
         """Called when the application is activated.
@@ -87,7 +94,7 @@ class MiniTextApplication(Adw.Application):
         else:
             self.win.controls.set_side(Gtk.PackType.START)
 
-    def on_about_action(self, widget, _):
+    def on_about_action(self, *args):
         """Callback for the app.about action."""
         about = Adw.AboutWindow(transient_for=self.props.active_window,
                                 application_name='Mini Text',
@@ -96,11 +103,15 @@ class MiniTextApplication(Adw.Application):
                                 version='0.1.6',
                                 developers=['Nokse'],
                                 copyright='© 2023 Nokse')
+        
+        # Translator credits. Replace "translator-credits" with your name/username, and optionally an email or URL. 
+        # One name per line, please do not remove previous names.
+        about.set_translator_credits(_("translator-credits"))
         about.present()
 
-    def on_preferences_action(self, widget, _):
-        """Callback for the app.preferences action."""
-        print('app.preferences action activated')
+    # def on_preferences_action(self, widget, _):
+    #     """Callback for the app.preferences action."""
+    #     print('app.preferences action activated')
 
     def create_action(self, name, callback, shortcuts=None):
         """Add an application action.
