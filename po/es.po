@@ -1,0 +1,78 @@
+# Spanish translation for minitext.
+# Copyright (C) 2023 minitext's COPYRIGHT HOLDER
+# This file is distributed under the same license as the mini-text package.
+#
+# Pastorinni Ochoa <pastorinni.ochoa@gmail.com>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mini-text\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-14 18:05+0200\n"
+"PO-Revision-Date: 2023-09-16 23:30-0500\n"
+"Last-Translator: Pastorinni Ochoa <pastorinni.ochoa@gmail.com>\n"
+"Language-Team: Spanish\n"
+"Language: es_MX\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: data/io.github.nokse22.minitext.desktop.in:3
+#: data/io.github.nokse22.minitext.appdata.xml.in:6
+msgid "Mini Text"
+msgstr "Mini Texto"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:8
+msgid ""
+"A very small and minimalistic text viewer with minimal editing capabilities. Best used "
+"with 'Always on Top' and/or 'Always on Visible Workspace'. It doesn't save or load "
+"files, just your clipboard. It is meant to be used as a place where to edit text to be "
+"pasted."
+msgstr ""
+"Un visualizador de texto pequeño y minimalista con capacidades de edición mínimas. Se "
+"recomienda su uso en modo 'Siempre en primer plano' y/o 'Siempre visible en el espacio "
+"de trabajo'. No guarda ni carga archivos, simplemente carga texto desde el "
+"portapapeles. Está diseñado para ser utilizado como un lugar donde se edita texto que "
+"se pagará en otro lugar."
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:10
+msgid "Ephemeral text edits"
+msgstr "Efímeras ediciones de texto"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:11
+msgid "Nokse"
+msgstr "Nokse"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:23
+msgid "Bug fixes"
+msgstr "Corrección de errores"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:28
+msgid "Increase/descrease font size with ctrl+/-"
+msgstr "Aumenta/reduce la dimension del caracter con ctrl+/-"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:33
+msgid "Increased padding"
+msgstr "Marge incrementado"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:38
+msgid "Added buttons to quickly copy and paste"
+msgstr "Botones agregados para copiar y pegar rápidamente"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:43
+msgid "First release"
+msgstr "Primer lanzamiento"
+
+#: src/window.ui:98
+msgid "_Preferences"
+msgstr "_Preferencias"
+
+#: src/window.ui:102
+msgid "_Keyboard Shortcuts"
+msgstr "Atajos de _Teclado"
+
+#: src/window.ui:106
+msgid "_About Mini-text"
+msgstr "_Acerca de Mini-text"

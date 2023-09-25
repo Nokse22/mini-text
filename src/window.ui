@@ -62,6 +62,7 @@
                         <property name="halign">center</property>
                         <property name="css-classes">flat</property>
                         <property name="icon-name">edit-paste-symbolic</property>
+                        <property name="tooltip-text" translatable="yes">Paste</property>
                         <signal name="clicked" handler="on_paste_action" swapped="no" />
                       </object>
                     </child>
@@ -71,6 +72,7 @@
                         <property name="halign">center</property>
                         <property name="css-classes">flat</property>
                         <property name="icon-name">edit-copy-symbolic</property>
+                        <property name="tooltip-text" translatable="yes">Copy</property>
                         <signal name="clicked" handler="on_copy_action" swapped="no" />
                       </object>
                     </child>
@@ -79,6 +81,7 @@
                         <property name="margin-top">6</property>
                         <property name="halign">center</property>
                         <property name="icon-name">user-trash-symbolic</property>
+                        <property name="tooltip-text" translatable="yes">Delete</property>
                         <signal name="clicked" handler="on_delete_action" swapped="no" />
                         <property name="css-classes">
 error
