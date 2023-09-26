@@ -5,13 +5,21 @@
   <template class="MiniTextWindow" parent="AdwApplicationWindow">
     <property name="modal">true</property>
     <property name="title"></property>
-    <!-- <property name="height-request">178</property> -->
+    <property name="height-request">178</property>
     <property name="width-request">300</property>
     <child>
-      <object class="GtkBox">
+      <object class="AdwBreakpoint">
+        <condition>min-height: 400px</condition>
+        <setter object="main-box" property="orientation">1</setter>
+        <setter object="tool-box" property="orientation">0</setter>
+        <setter object="v-separator" property="visible">false</setter>
+        <setter object="h-separator" property="visible">true</setter>
+      </object>
+    </child>
+    <child>
+      <object class="GtkBox" id="main-box">
         <child>
           <object class="GtkScrolledWindow">
-            <!-- <property name="margin-end">46</property> -->
             <child>
               <object class="GtkBox">
                 <child>
@@ -19,14 +27,22 @@
                     <property name="css-classes">textviewer</property>
                     <property name="wrap-mode">word-char</property>
                     <property name="hexpand">true</property>
+                    <property name="vexpand">true</property>
                   </object>
                 </child>
                 <child>
-                  <object class="GtkSeparator">
+                  <object class="GtkSeparator" id="v-separator">
+                    <property name="visible">true</property>
                   </object>
                 </child>
               </object>
             </child>
+          </object>
+        </child>
+        <child>
+          <object class="GtkSeparator" id="h-separator">
+            <property name="visible">false</property>
+            <property name="orientation">0</property>
           </object>
         </child>
         <child>
@@ -36,11 +52,11 @@
                 <property name="orientation">1</property>
                 <property name="valign">fill</property>
                 <child>
-                  <object class="GtkBox">
+                  <object class="GtkBox" id="tool-box">
                     <property name="orientation">1</property>
                     <property name="width-request">46</property>
                     <property name="margin-bottom">6</property>
-                    <property name="halign">end</property>
+                    <property name="halign">fill</property>
                     <property name="valign">fill</property>
                     <property name="vexpand">true</property>
                     <child>
@@ -54,6 +70,7 @@
                     <child>
                       <object class="GtkBox">
                         <property name="vexpand">true</property>
+                        <property name="hexpand">true</property>
                       </object>
                     </child>
                     <child>
