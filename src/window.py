@@ -55,6 +55,14 @@ class MiniTextWindow(Adw.ApplicationWindow):
         context = self.text_view.get_style_context()
         context.add_provider(style_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION)
 
+    @Gtk.Template.Callback("on_decrease_size_action")
+    def on_decrease_size_action(self, *args):
+        print("-")
+
+    @Gtk.Template.Callback("on_increase_size_action")
+    def on_increase_size_action(self, *args):
+        print("+")
+
     @Gtk.Template.Callback("on_copy_action")
     def on_copy_action(self, *args):
         print("copy")

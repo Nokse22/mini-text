@@ -4,7 +4,7 @@
   <requires lib="Adw" version="1.0"/>
   <template class="MiniTextWindow" parent="AdwApplicationWindow">
     <property name="modal">true</property>
-    <property name="title"></property>
+    <property name="title">Mini Text</property>
     <property name="height-request">178</property>
     <property name="width-request">300</property>
     <child>
@@ -14,10 +14,19 @@
         <setter object="tool-box" property="orientation">0</setter>
         <setter object="v-separator" property="visible">false</setter>
         <setter object="h-separator" property="visible">true</setter>
+        <setter object="controls" property="visible">false</setter>
+        <setter object="headerbar" property="visible">true</setter>
+        <setter object="decrease_button" property="visible">true</setter>
+        <setter object="increase_button" property="visible">true</setter>
       </object>
     </child>
     <child>
       <object class="GtkBox" id="main-box">
+        <child>
+          <object class="AdwHeaderBar" id="headerbar">
+            <property name="visible">false</property>
+          </object>
+        </child>
         <child>
           <object class="GtkScrolledWindow">
             <child>
@@ -67,6 +76,30 @@
                         <!-- <property name="margin-bottom">9</property> -->
                       </object>
                     </child>
+
+                    <child>
+                      <object class="GtkButton" id="increase_button">
+                        <property name="visible">false</property>
+                        <property name="margin-top">6</property>
+                        <property name="margin-start">6</property>
+                        <property name="halign">center</property>
+                        <property name="css-classes">flat</property>
+                        <property name="icon-name">list-add-symbolic</property>
+                        <property name="tooltip-text" translatable="yes">Increase Text Size</property>
+                        <signal name="clicked" handler="on_increase_size_action"/>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="decrease_button">
+                        <property name="visible">false</property>
+                        <property name="margin-top">6</property>
+                        <property name="halign">center</property>
+                        <property name="css-classes">flat</property>
+                        <property name="icon-name">list-remove-symbolic</property>
+                        <property name="tooltip-text" translatable="yes">Decrease Text Size</property>
+                        <signal name="clicked" handler="on_decrease_size_action"/>
+                      </object>
+                    </child>
                     <child>
                       <object class="GtkBox">
                         <property name="vexpand">true</property>
@@ -96,6 +129,7 @@
                     <child>
                       <object class="GtkButton">
                         <property name="margin-top">6</property>
+                        <property name="margin-end">6</property>
                         <property name="halign">center</property>
                         <property name="icon-name">user-trash-symbolic</property>
                         <property name="tooltip-text" translatable="yes">Delete</property>
