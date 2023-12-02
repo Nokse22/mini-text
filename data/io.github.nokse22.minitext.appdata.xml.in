@@ -22,33 +22,33 @@ Use Ctrl+Plus and Ctrl+Minus to change the font size.
 
   <releases>
     <release version="0.1.8" date="2023-09-01">
-    	<description>
+    	<description translatable="no">
 			  <p>Fixed bug with shortcuts</p>
     	  <p>Draggable only by the side</p>
 		  </description>
   	</release>
   	<release version="0.1.7" date="2023-08-10">
-    	<description>
+    	<description translatable="no">
 			  <p>Bug fixes</p>
 		  </description>
   	</release>
   	<release version="0.1.6" date="2023-08-08">
-    	<description>
+    	<description translatable="no">
 		    <p>Increase/decrease font size with ctrl+/-</p>
 	    </description>
   	</release>
 	  <release version="0.1.5" date="2023-08-06">
-    	<description>
+    	<description translatable="no">
 			  <p>Increased padding</p>
 		  </description>
   	</release>
   	<release version="0.1.4" date="2023-08-04">
-    	<description>
+    	<description translatable="no">
 			  <p>Added buttons to quickly copy and paste</p>
 		  </description>
   	</release>
   	<release version="0.1.3" date="2023-08-04">
-    	<description>
+    	<description translatable="no">
 			  <p>First release</p>
 		  </description>
   	</release>

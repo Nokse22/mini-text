@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-08 23:45+0300\n"
+"POT-Creation-Date: 2023-12-02 19:24+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,34 +37,6 @@ msgstr ""
 
 #: data/io.github.nokse22.minitext.appdata.xml.in:14
 msgid "Nokse"
-msgstr ""
-
-#: data/io.github.nokse22.minitext.appdata.xml.in:26
-msgid "Fixed bug with shortcuts"
-msgstr ""
-
-#: data/io.github.nokse22.minitext.appdata.xml.in:27
-msgid "Draggable only by the side"
-msgstr ""
-
-#: data/io.github.nokse22.minitext.appdata.xml.in:32
-msgid "Bug fixes"
-msgstr ""
-
-#: data/io.github.nokse22.minitext.appdata.xml.in:37
-msgid "Increase/decrease font size with ctrl+/-"
-msgstr ""
-
-#: data/io.github.nokse22.minitext.appdata.xml.in:42
-msgid "Increased padding"
-msgstr ""
-
-#: data/io.github.nokse22.minitext.appdata.xml.in:47
-msgid "Added buttons to quickly copy and paste"
-msgstr ""
-
-#: data/io.github.nokse22.minitext.appdata.xml.in:52
-msgid "First release"
 msgstr ""
 
 #: src/gtk/help-overlay.ui:11
@@ -107,32 +79,38 @@ msgctxt "shortcut window"
 msgid "Reset Font Size"
 msgstr ""
 
-#. Translator credits. Replace "translator-credits" with your name/username, and optionally an email or URL.
-#. One name per line, please do not remove previous names.
 #: src/main.py:109
 msgid "translator-credits"
 msgstr ""
 
-#: src/window.ui:65
+#: src/window.ui:88
+msgid "Increase Text Size"
+msgstr ""
+
+#: src/window.ui:99
+msgid "Decrease Text Size"
+msgstr ""
+
+#: src/window.ui:115
 msgid "Paste"
 msgstr ""
 
-#: src/window.ui:75
+#: src/window.ui:125
 msgid "Copy"
 msgstr ""
 
-#: src/window.ui:84
+#: src/window.ui:135
 msgid "Delete"
 msgstr ""
 
-#: src/window.ui:104
+#: src/window.ui:155
 msgid "_Preferences"
 msgstr ""
 
-#: src/window.ui:108
+#: src/window.ui:159
 msgid "_Keyboard Shortcuts"
 msgstr ""
 
-#: src/window.ui:112
+#: src/window.ui:163
 msgid "_About Mini-text"
 msgstr ""
