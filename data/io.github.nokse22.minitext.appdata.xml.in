@@ -21,6 +21,19 @@ Use Ctrl+Plus and Ctrl+Minus to change the font size.
   <url type="bugtracker">https://github.com/Nokse22/mini-text/issues</url>
 
   <releases>
+    <release version="0.2.0" date="2023-09-01">
+    	<description translatable="no">
+			  <p>Made the app more adaptive</p>
+        <p>Improved translation</p>
+    	  <p>Improved keyboard shortcuts</p>
+    	  <p>Added reset font shortcut</p>
+    	  <p>Added tooltips</p>
+    	  <p>Added Turkish translation</p>
+    	  <p>Added Spanish translation</p>
+    	  <p>Added Russian translation</p>
+    	  <p>Updated runtime version</p>
+		  </description>
+  	</release>
     <release version="0.1.8" date="2023-09-01">
     	<description translatable="no">
 			  <p>Fixed bug with shortcuts</p>
