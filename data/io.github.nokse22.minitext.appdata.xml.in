@@ -5,12 +5,11 @@
 	<project_license>GPL-3.0-or-later</project_license>
 	<name>Mini Text</name>
 	<description>
-	  <p>A very small and minimalistic text viewer with minimal editing capabilities.
-Best used with 'Always on Top' and/or 'Always on Visible Workspace'. It doesn't save or load files, just your clipboard. It is meant to be used as a place where to edit text to be pasted.
-Use Ctrl+Plus and Ctrl+Minus to change the font size.
+	  <p>A very small and minimalistic digital scratch pad with minimal editing capabilities.
+Best used with 'Always on Top' and/or 'Always on Visible Workspace'. It doesn't save or load files, just your clipboard.
 	  </p>
 	</description>
-  <summary>Ephemeral text edits</summary>
+  <summary>Ephemeral scratch pad</summary>
   <developer_name>Nokse</developer_name>
 	<content_rating type="oars-1.0">
   </content_rating>
@@ -21,7 +20,7 @@ Use Ctrl+Plus and Ctrl+Minus to change the font size.
   <url type="bugtracker">https://github.com/Nokse22/mini-text/issues</url>
 
   <releases>
-    <release version="0.2.0" date="2023-09-01">
+    <release version="0.2.0" date="2023-12-11">
     	<description translatable="no">
 			  <p>Made the app more adaptive</p>
         <p>Improved translation</p>
