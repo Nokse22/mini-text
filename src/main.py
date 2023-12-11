@@ -55,24 +55,16 @@ class MiniTextApplication(Adw.Application):
         self.create_action('reset-font', self.on_reset_font_action, ['<control>0', '<control>KP_0'])
 
     def on_increase_font_action(self, widget, _):
-        size = self.win.settings.get_int('font-size')
-        self.win.settings.set_int('font-size', size + 1)
-        self.win.change_font()
-        print(size + 1)
+        self.win.on_increase_size_action()
 
     def on_decrease_font_action(self, widget, _):
-        size = self.win.settings.get_int('font-size')
-        if size > 10:
-            self.win.settings.set_int('font-size', size - 1)
-            self.win.change_font()
-            print(size - 1)
+        self.win.on_decrease_size_action()
             
     def on_reset_font_action(self, widget, _):
         size = self.win.settings.get_int('font-size')
         if size > 10:
-            self.win.settings.set_int('font-size', 10)
+            self.win.settings.set_int('font-size', 12)
             self.win.change_font()
-            print(10)
 
     def do_activate(self):
         """Called when the application is activated.
