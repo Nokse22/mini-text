@@ -61,10 +61,8 @@ class MiniTextApplication(Adw.Application):
         self.win.on_decrease_size_action()
             
     def on_reset_font_action(self, widget, _):
-        size = self.win.settings.get_int('font-size')
-        if size > 10:
-            self.win.settings.set_int('font-size', 12)
-            self.win.change_font()
+        self.win.settings.set_int('font-size', 14)
+        self.win.change_font()
 
     def do_activate(self):
         """Called when the application is activated.
@@ -92,8 +90,11 @@ class MiniTextApplication(Adw.Application):
                                 application_name='Mini Text',
                                 application_icon='io.github.nokse22.minitext',
                                 developer_name='Nokse',
-                                version='0.1.6',
+                                version='0.2.0',
                                 developers=['Nokse'],
+                                license_type="GTK_LICENSE_GPL_3_0",
+                                issue_url='https://github.com/Nokse22/mini-text/issues',
+                                website='https://github.com/Nokse22/mini-text',
                                 copyright='© 2023 Nokse')
         
         # Translator credits. Replace "translator-credits" with your name/username, and optionally an email or URL. 
