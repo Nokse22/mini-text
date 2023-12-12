@@ -22,15 +22,17 @@ Best used with 'Always on Top' and/or 'Always on Visible Workspace'. It doesn't 
   <releases>
     <release version="0.2.0" date="2023-12-11">
     	<description translatable="no">
-			  <p>Made the app more adaptive</p>
-        <p>Improved translation</p>
-    	  <p>Improved keyboard shortcuts</p>
-    	  <p>Added reset font shortcut</p>
-    	  <p>Added tooltips</p>
-    	  <p>Added Turkish translation</p>
-    	  <p>Added Spanish translation</p>
-    	  <p>Added Russian translation</p>
-    	  <p>Updated runtime version</p>
+    	  <ul>
+		      <li>Made the app more adaptive</li>
+          <li>Improved translation</li>
+      	  <li>Improved keyboard shortcuts</li>
+      	  <li>Added reset font shortcut</li>
+      	  <li>Added tooltips</li>
+      	  <li>Added Turkish translation</li>
+      	  <li>Added Spanish translation</li>
+      	  <li>Added Russian translation</li>
+      	  <li>Updated runtime version</li>
+    	  </ul>
 		  </description>
   	</release>
     <release version="0.1.8" date="2023-09-01">
