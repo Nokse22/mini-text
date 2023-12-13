@@ -1,8 +1,8 @@
 on:
-  # push:
-  #   branches: [ "master" ]
-  # pull_request:
-  # workflow_dispatch:
+  push:
+    branches: [ "master" ]
+  pull_request:
+  workflow_dispatch:
 name: Snap
 permissions:
   id-token: write
