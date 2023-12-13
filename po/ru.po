@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-02 19:24+0100\n"
-"PO-Revision-Date: 2023-12-03 08:38+1000\n"
+"POT-Creation-Date: 2023-12-11 12:23+0100\n"
+"PO-Revision-Date: 2023-12-14 00:36+1000\n"
 "Last-Translator: Ser82-png <asvmail.as@gmail.com>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -87,41 +87,40 @@ msgctxt "shortcut window"
 msgid "Reset Font Size"
 msgstr "Сбросить размер шрифта"
 
-#: src/main.py:109
+#: src/main.py:101
 msgid "translator-credits"
 msgstr "Ser82-png <asvmail.as@gmail.com>, 2023"
 
-#: src/window.ui:88
+#: src/window.ui:98
 msgid "Increase Text Size"
 msgstr "Увеличить размер текста"
 
-#: src/window.ui:99
+#: src/window.ui:109
 msgid "Decrease Text Size"
 msgstr "Уменьшить размер текста"
 
-#: src/window.ui:115
+#: src/window.ui:125
 msgid "Paste"
 msgstr "Вставить"
 
-#: src/window.ui:125
+#: src/window.ui:135
 msgid "Copy"
 msgstr "Копировать"
 
-#: src/window.ui:135
+#: src/window.ui:144
 msgid "Delete"
 msgstr "Удалить"
 
-#: src/window.ui:155
-msgid "_Preferences"
-msgstr "_Параметры"
-
-#: src/window.ui:159
+#: src/window.ui:168
 msgid "_Keyboard Shortcuts"
 msgstr "_Комбинации клавиш"
 
-#: src/window.ui:163
-msgid "_About Mini-text"
+#: src/window.ui:172
+msgid "_About Mini Text"
 msgstr "_О приложении"
+
+#~ msgid "_Preferences"
+#~ msgstr "_Параметры"
 
 #~ msgid "Fixed bug with shortcuts"
 #~ msgstr "Исправлена ошибка с комбинациями клавиш"
