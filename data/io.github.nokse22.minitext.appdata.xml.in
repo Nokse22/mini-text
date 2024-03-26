@@ -10,14 +10,16 @@ Best used with 'Always on Top' and/or 'Always on Visible Workspace'. It doesn't 
 	  </p>
 	</description>
   <summary>Ephemeral scratch pad</summary>
-  <developer_name>Nokse</developer_name>
-	<content_rating type="oars-1.0">
-  </content_rating>
+  <developer_name translatable="no">Nokse</developer_name>
+  <content_rating type="oars-1.1" />
 
   <launchable type="desktop-id">io.github.nokse22.minitext.desktop</launchable>
+  <translation type="gettext">mini-text</translation>
 
   <url type="homepage">https://github.com/Nokse22/mini-text</url>
   <url type="bugtracker">https://github.com/Nokse22/mini-text/issues</url>
+  <url type="vcs-browser">https://github.com/Nokse22/mini-text</url>
+  <url type="translate">https://github.com/Nokse22/mini-text/tree/master/po</url>
 
   <releases>
     <release version="0.2.1" date="2024-03-26">
@@ -72,10 +74,6 @@ Best used with 'Always on Top' and/or 'Always on Visible Workspace'. It doesn't 
 		  </description>
   	</release>
   </releases>
-
-  <categories>
-    <category>Utility</category>
-  </categories>
 
 	<screenshots>
     <screenshot type="default">
