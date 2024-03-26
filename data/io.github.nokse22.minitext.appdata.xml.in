@@ -20,6 +20,11 @@ Best used with 'Always on Top' and/or 'Always on Visible Workspace'. It doesn't 
   <url type="bugtracker">https://github.com/Nokse22/mini-text/issues</url>
 
   <releases>
+    <release version="0.2.1" date="2024-03-26">
+    	<description translatable="no">
+			  <p>Updated runtime</p>
+		  </description>
+  	</release>
     <release version="0.2.0" date="2023-12-11">
     	<description translatable="no">
     	  <ul>
