@@ -11,7 +11,7 @@ Best used with 'Always on Top' and/or 'Always on Visible Workspace'. It doesn't 
 	</description>
   <summary>Ephemeral scratch pad</summary>
   <developer id="io.github.nokse22">
-    <name translatable="no">Nokse</name>
+    <name translate="no">Nokse</name>
   </developer>
   <content_rating type="oars-1.1" />
 
@@ -25,12 +25,12 @@ Best used with 'Always on Top' and/or 'Always on Visible Workspace'. It doesn't 
 
   <releases>
     <release version="0.2.1" date="2024-03-26">
-    	<description translatable="no">
+    	<description translate="no">
 			  <p>Updated runtime</p>
 		  </description>
   	</release>
     <release version="0.2.0" date="2023-12-11">
-    	<description translatable="no">
+    	<description translate="no">
     	  <ul>
 		      <li>Made the app more adaptive</li>
           <li>Improved translation</li>
@@ -45,33 +45,33 @@ Best used with 'Always on Top' and/or 'Always on Visible Workspace'. It doesn't 
 		  </description>
   	</release>
     <release version="0.1.8" date="2023-09-01">
-    	<description translatable="no">
+    	<description translate="no">
 			  <p>Fixed bug with shortcuts</p>
     	  <p>Draggable only by the side</p>
 		  </description>
   	</release>
   	<release version="0.1.7" date="2023-08-10">
-    	<description translatable="no">
+    	<description translate="no">
 			  <p>Bug fixes</p>
 		  </description>
   	</release>
   	<release version="0.1.6" date="2023-08-08">
-    	<description translatable="no">
+    	<description translate="no">
 		    <p>Increase/decrease font size with ctrl+/-</p>
 	    </description>
   	</release>
 	  <release version="0.1.5" date="2023-08-06">
-    	<description translatable="no">
+    	<description translate="no">
 			  <p>Increased padding</p>
 		  </description>
   	</release>
   	<release version="0.1.4" date="2023-08-04">
-    	<description translatable="no">
+    	<description translate="no">
 			  <p>Added buttons to quickly copy and paste</p>
 		  </description>
   	</release>
   	<release version="0.1.3" date="2023-08-04">
-    	<description translatable="no">
+    	<description translate="no">
 			  <p>First release</p>
 		  </description>
   	</release>
