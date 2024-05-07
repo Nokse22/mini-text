@@ -1,0 +1,120 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# twlvnn <kraft_werk@tutanota.com>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mini-text\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-11 12:23+0100\n"
+"PO-Revision-Date: 2024-05-04 12:15+0200\n"
+"Last-Translator: twlvnn <kraft_werk@tutanota.com>\n"
+"Language-Team: Bulgarian <dict-notifications@fsa-bg.org>\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Generator: Gtranslator 46.0\n"
+
+#: data/io.github.nokse22.minitext.desktop.in:3
+#: data/io.github.nokse22.minitext.appdata.xml.in:6
+msgid "Mini Text"
+msgstr "Мини Текст"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:8
+msgid ""
+"A very small and minimalistic text viewer with minimal editing capabilities. "
+"Best used with 'Always on Top' and/or 'Always on Visible Workspace'. It "
+"doesn't save or load files, just your clipboard. It is meant to be used as a "
+"place where to edit text to be pasted. Use Ctrl+Plus and Ctrl+Minus to "
+"change the font size."
+msgstr ""
+"Много малка и минималистична програма за преглед на текст с минимални "
+"възможности за редактиране. Най-добре се използва с „Винаги отгоре“ и/или "
+"„Винаги на видимия работен плот“. Не запазва и не зарежда файлове, а само "
+"вашия буфер за обмен. Предназначена е да се използва като място, където да "
+"се редактира текст, който да бъде вмъкнат. Използвайте Ctrl+Плюс и "
+"Ctrl+Минус, за да променяте размера на шрифта."
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:13
+msgid "Ephemeral text edits"
+msgstr "Краткотрайно текстово редактиране"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:14
+msgid "Nokse"
+msgstr "Nokse"
+
+#: src/gtk/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Общи"
+
+#: src/gtk/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Показване на клавишните комбинации"
+
+#: src/gtk/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Спиране на програмата"
+
+#: src/gtk/help-overlay.ui:26
+msgctxt "shortcut window"
+msgid "Show About"
+msgstr "Показване на „Относно“"
+
+#: src/gtk/help-overlay.ui:34
+msgctxt "shortcut window"
+msgid "Editor"
+msgstr "Редактор"
+
+#: src/gtk/help-overlay.ui:37
+msgctxt "shortcut window"
+msgid "Increase Font Size"
+msgstr "Увеличаване на размера на шрифта"
+
+#: src/gtk/help-overlay.ui:43
+msgctxt "shortcut window"
+msgid "Decrease Font Size"
+msgstr "Намаляване на размера на шрифта"
+
+#: src/gtk/help-overlay.ui:49
+msgctxt "shortcut window"
+msgid "Reset Font Size"
+msgstr "Връщане на размера на шрифта"
+
+#: src/main.py:101
+msgid "translator-credits"
+msgstr "twlvnn <kraft_werk@tutanota.com>"
+
+#: src/window.ui:98
+msgid "Increase Text Size"
+msgstr "Увеличаване на размера на текста"
+
+#: src/window.ui:109
+msgid "Decrease Text Size"
+msgstr "Намаляване на размера на текста"
+
+#: src/window.ui:125
+msgid "Paste"
+msgstr "Поставяне"
+
+#: src/window.ui:135
+msgid "Copy"
+msgstr "Копиране"
+
+#: src/window.ui:144
+msgid "Delete"
+msgstr "Изтриване"
+
+#: src/window.ui:168
+msgid "_Keyboard Shortcuts"
+msgstr "_Клавишни комбинации"
+
+#: src/window.ui:172
+msgid "_About Mini Text"
+msgstr "_Относно „Мини Текст“"
