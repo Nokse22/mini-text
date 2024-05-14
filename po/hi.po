@@ -9,15 +9,15 @@ msgstr ""
 "Project-Id-Version: mini-text\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-11 12:23+0100\n"
-"PO-Revision-Date: 2024-04-04 01:27+0530\n"
+"PO-Revision-Date: 2024-05-11 15:08+0530\n"
 "Last-Translator: Scrambled777 <weblate.scrambled777@simplelogin.com>\n"
-"Language-Team: Hindi\n"
+"Language-Team: Hindi <indlinux-hindi@lists.sourceforge.net>\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Gtranslator 46.0\n"
+"X-Generator: Gtranslator 46.1\n"
 
 #: data/io.github.nokse22.minitext.desktop.in:3
 #: data/io.github.nokse22.minitext.appdata.xml.in:6
@@ -49,12 +49,12 @@ msgstr "Nokse"
 #: src/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr "जनरल"
+msgstr "सामान्य"
 
 #: src/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr "शॉर्टकट दिखाएँ"
+msgstr "शॉर्टकट दिखाएं"
 
 #: src/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
@@ -64,7 +64,7 @@ msgstr "छोड़ें"
 #: src/gtk/help-overlay.ui:26
 msgctxt "shortcut window"
 msgid "Show About"
-msgstr "इसके बारे में दिखाएँ"
+msgstr "इसके बारे में दिखाएं"
 
 #: src/gtk/help-overlay.ui:34
 msgctxt "shortcut window"
@@ -74,12 +74,12 @@ msgstr "संपादक"
 #: src/gtk/help-overlay.ui:37
 msgctxt "shortcut window"
 msgid "Increase Font Size"
-msgstr "फॉन्ट आकार बढ़ाएँ"
+msgstr "फॉन्ट आकार बढ़ाएं"
 
 #: src/gtk/help-overlay.ui:43
 msgctxt "shortcut window"
 msgid "Decrease Font Size"
-msgstr "फॉन्ट आकार घटाएँ"
+msgstr "फॉन्ट आकार घटाएं"
 
 #: src/gtk/help-overlay.ui:49
 msgctxt "shortcut window"
@@ -92,23 +92,23 @@ msgstr "Scrambled777 <weblate.scrambled777@simplelogin.com>"
 
 #: src/window.ui:98
 msgid "Increase Text Size"
-msgstr "पाठ का आकार बढ़ाएँ"
+msgstr "पाठ का आकार बढ़ाएं"
 
 #: src/window.ui:109
 msgid "Decrease Text Size"
-msgstr "पाठ का आकार घटाएँ"
+msgstr "पाठ का आकार घटाएं"
 
 #: src/window.ui:125
 msgid "Paste"
-msgstr "पेस्ट"
+msgstr "चिपकाएं"
 
 #: src/window.ui:135
 msgid "Copy"
-msgstr "कॉपी"
+msgstr "कॉपी करें"
 
 #: src/window.ui:144
 msgid "Delete"
-msgstr "मिटायें"
+msgstr "मिटाएं"
 
 #: src/window.ui:168
 msgid "_Keyboard Shortcuts"
