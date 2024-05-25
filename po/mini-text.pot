@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-11 12:23+0100\n"
+"POT-Creation-Date: 2024-05-25 16:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,25 +18,39 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: data/io.github.nokse22.minitext.desktop.in:3
-#: data/io.github.nokse22.minitext.appdata.xml.in:6
+#: data/io.github.nokse22.minitext.appdata.xml.in:9
 msgid "Mini Text"
 msgstr ""
 
-#: data/io.github.nokse22.minitext.appdata.xml.in:8
+#: data/io.github.nokse22.minitext.appdata.xml.in:11
 msgid ""
-"A very small and minimalistic text viewer with minimal editing capabilities. "
-"Best used with 'Always on Top' and/or 'Always on Visible Workspace'. It "
-"doesn't save or load files, just your clipboard. It is meant to be used as a "
-"place where to edit text to be pasted. Use Ctrl+Plus and Ctrl+Minus to "
-"change the font size."
+"A very small and minimalistic digital scratch pad with minimal editing "
+"capabilities. Best used with 'Always on Top' and/or 'Always on Visible "
+"Workspace'. It doesn't save or load files, just your clipboard."
 msgstr ""
 
-#: data/io.github.nokse22.minitext.appdata.xml.in:13
-msgid "Ephemeral text edits"
+#: data/io.github.nokse22.minitext.appdata.xml.in:15
+msgid "Ephemeral scratch pad"
 msgstr ""
 
-#: data/io.github.nokse22.minitext.appdata.xml.in:14
-msgid "Nokse"
+#: data/io.github.nokse22.minitext.appdata.xml.in:46
+msgid "Added screenshot"
+msgstr ""
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:47
+msgid "Added branding colors"
+msgstr ""
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:106
+msgid "Mini text displaying text with a small window"
+msgstr ""
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:111
+msgid "Mini text displaying text with a medium window"
+msgstr ""
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:116
+msgid "Mini text displaying text with a small window in dark mode"
 msgstr ""
 
 #: src/gtk/help-overlay.ui:11
@@ -79,7 +93,7 @@ msgctxt "shortcut window"
 msgid "Reset Font Size"
 msgstr ""
 
-#: src/main.py:101
+#: src/main.py:102
 msgid "translator-credits"
 msgstr ""
 
