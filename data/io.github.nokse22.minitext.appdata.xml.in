@@ -20,6 +20,15 @@ Best used with 'Always on Top' and/or 'Always on Visible Workspace'. It doesn't 
     <color type="primary" scheme_preference="dark">#0e5427</color>
   </branding>
 
+  <recommends>
+    <display_length compare="ge">360</display_length>
+  </recommends>
+  <supports>
+    <control>pointing</control>
+    <control>keyboard</control>
+    <control>touch</control>
+  </supports>
+
   <launchable type="desktop-id">io.github.nokse22.minitext.desktop</launchable>
   <translation type="gettext">mini-text</translation>
 
@@ -29,6 +38,12 @@ Best used with 'Always on Top' and/or 'Always on Visible Workspace'. It doesn't 
   <url type="translate">https://github.com/Nokse22/mini-text/tree/master/po</url>
 
   <releases>
+    <release version="0.2.2" date="2024-05-25">
+    	<description translatable="no">
+			  <p>Added screenshot</p>
+    	  <p>Added branding colors</p>
+		  </description>
+  	</release>
     <release version="0.2.1" date="2024-03-26">
     	<description translatable="no">
 			  <p>Updated runtime</p>
