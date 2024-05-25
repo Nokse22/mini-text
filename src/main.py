@@ -86,11 +86,11 @@ class MiniTextApplication(Adw.Application):
 
     def on_about_action(self, *args):
         """Callback for the app.about action."""
-        about = Adw.AboutWindow(transient_for=self.props.active_window,
+        about = Adw.AboutDialog(
                                 application_name='Mini Text',
                                 application_icon='io.github.nokse22.minitext',
                                 developer_name='Nokse',
-                                version='0.2.1',
+                                version='0.2.2',
                                 developers=['Nokse'],
                                 license_type="GTK_LICENSE_GPL_3_0",
                                 issue_url='https://github.com/Nokse22/mini-text/issues',
@@ -100,7 +100,7 @@ class MiniTextApplication(Adw.Application):
         # Translator credits. Replace "translator-credits" with your name/username, and optionally an email or URL. 
         # One name per line, please do not remove previous names.
         about.set_translator_credits(_("translator-credits"))
-        about.present()
+        about.present(self.props.active_window)
 
     # def on_preferences_action(self, widget, _):
     #     """Callback for the app.preferences action."""
