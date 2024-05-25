@@ -39,6 +39,7 @@ Best used with 'Always on Top' and/or 'Always on Visible Workspace'. It doesn't 
   <url type="bugtracker">https://github.com/Nokse22/mini-text/issues</url>
   <url type="vcs-browser">https://github.com/Nokse22/mini-text</url>
   <url type="translate">https://github.com/Nokse22/mini-text/tree/master/po</url>
+  <url type="donation">https://ko-fi.com/nokse22</url>
 
   <releases>
     <release version="0.2.2" date="2024-05-25">
