@@ -99,12 +99,19 @@ Best used with 'Always on Top' and/or 'Always on Visible Workspace'. It doesn't 
 
 	<screenshots>
     <screenshot type="default">
-      <image>https://raw.githubusercontent.com/Nokse22/mini-text/master/data/resources/Screenshot%201.png</image>
+      <image>https://raw.githubusercontent.com/Nokse22/mini-text/master/data/resources/screenshot%201.png</image>
+      <caption>Mini text displaying text with a small window</caption>
     </screenshot>
 
 	  <screenshot>
-	    <image>https://raw.githubusercontent.com/Nokse22/mini-text/master/data/resources/Screenshot%202.png</image>
+	    <image>https://raw.githubusercontent.com/Nokse22/mini-text/master/data/resources/screenshot%202.png</image>
+	    <caption>Mini text displaying text with a medium window</caption>
 	  </screenshot>
+
+	  <screenshot type="default">
+      <image>https://raw.githubusercontent.com/Nokse22/mini-text/master/data/resources/screenshot%203.png</image>
+      <caption>Mini text displaying text with a small window in dark mode</caption>
+    </screenshot>
   </screenshots>
 
 </component>
