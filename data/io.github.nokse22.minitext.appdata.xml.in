@@ -15,6 +15,11 @@ Best used with 'Always on Top' and/or 'Always on Visible Workspace'. It doesn't 
   </developer>
   <content_rating type="oars-1.1" />
 
+  <branding>
+    <color type="primary" scheme_preference="light">#2ec27e</color>
+    <color type="primary" scheme_preference="dark">#0e5427</color>
+  </branding>
+
   <launchable type="desktop-id">io.github.nokse22.minitext.desktop</launchable>
   <translation type="gettext">mini-text</translation>
 
