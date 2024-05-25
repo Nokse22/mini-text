@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
-	<id>io.github.nokse22.minitext.desktop</id>
+	<id>io.github.nokse22.minitext</id>
+  <provides>
+    <id>io.github.nokse22.minitext.desktop</id>
+  </provides>
 	<metadata_license>CC0-1.0</metadata_license>
 	<project_license>GPL-3.0-or-later</project_license>
 	<name>Mini Text</name>
