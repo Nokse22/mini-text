@@ -45,6 +45,9 @@ Best used with 'Always on Top' and/or 'Always on Visible Workspace'. It doesn't 
     	<description translatable="no">
 			  <p>Added screenshot</p>
     	  <p>Added branding colors</p>
+    	  <p>Added Hindi translation</p>
+    	  <p>Added Estonian translation</p>
+    	  <p>Added Bulgarian translation</p>
 		  </description>
   	</release>
     <release version="0.2.1" date="2024-03-26">
