@@ -12,8 +12,8 @@ An extremely simple Gtk4/Libadwaita app that shows a text view to copy/paste and
 Best used with 'Always on Top' and/or 'Always on Visible Workspace'
   </p>
   <div align="center">
-  <img src="data/resources/Screenshot 1.png" height="200"/>
-  <img src="data/resources/Screenshot 2.png" height="200"/>
+  <img src="data/resources/screenshot 1.png" height="200"/>
+  <img src="data/resources/screenshot 2.png" height="200"/>
   </div>
   
   
