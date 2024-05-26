@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mini-text\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-11 12:23+0100\n"
-"PO-Revision-Date: 2024-05-11 15:08+0530\n"
+"POT-Creation-Date: 2024-05-25 16:06+0200\n"
+"PO-Revision-Date: 2024-05-26 12:23+0530\n"
 "Last-Translator: Scrambled777 <weblate.scrambled777@simplelogin.com>\n"
 "Language-Team: Hindi <indlinux-hindi@lists.sourceforge.net>\n"
 "Language: hi\n"
@@ -20,31 +20,43 @@ msgstr ""
 "X-Generator: Gtranslator 46.1\n"
 
 #: data/io.github.nokse22.minitext.desktop.in:3
-#: data/io.github.nokse22.minitext.appdata.xml.in:6
+#: data/io.github.nokse22.minitext.appdata.xml.in:9
 msgid "Mini Text"
 msgstr "Mini Text"
 
-#: data/io.github.nokse22.minitext.appdata.xml.in:8
+#: data/io.github.nokse22.minitext.appdata.xml.in:11
 msgid ""
-"A very small and minimalistic text viewer with minimal editing capabilities. "
-"Best used with 'Always on Top' and/or 'Always on Visible Workspace'. It "
-"doesn't save or load files, just your clipboard. It is meant to be used as a "
-"place where to edit text to be pasted. Use Ctrl+Plus and Ctrl+Minus to "
-"change the font size."
+"A very small and minimalistic digital scratch pad with minimal editing "
+"capabilities. Best used with 'Always on Top' and/or 'Always on Visible "
+"Workspace'. It doesn't save or load files, just your clipboard."
 msgstr ""
-"न्यूनतम संपादन क्षमताओं वाला एक बहुत छोटा और न्यूनतम पाठ दर्शक। 'हमेशा ऊपर' और/या "
-"'हमेशा दृश्यमान कार्यक्षेत्र पर' के साथ सबसे अच्छा उपयोग। यह फाइलों को सहेजता या लोड नहीं "
-"करता है, केवल आपका क्लिपबोर्ड है। इसका उपयोग ऐसे स्थान के रूप में किया जाना है जहां पेस्ट "
-"जाने वाले पाठ को संपादित किया जा सके। फॉन्ट आकार बदलने के लिए Ctrl+Plus और "
-"Ctrl+Minus का उपयोग करें।"
+"न्यूनतम संपादन क्षमताओं वाला एक बहुत छोटा और न्यूनतम डिजिटल स्क्रैच पैड। 'हमेशा ऊपर' और/"
+"या 'हमेशा दृश्यमान कार्यक्षेत्र पर' के साथ सबसे अच्छा उपयोग। यह फाइलों को सहेजता या लोड "
+"नहीं करता है, केवल आपका क्लिपबोर्ड।"
 
-#: data/io.github.nokse22.minitext.appdata.xml.in:13
-msgid "Ephemeral text edits"
-msgstr "क्षणिक पाठ संपादन"
+#: data/io.github.nokse22.minitext.appdata.xml.in:15
+msgid "Ephemeral scratch pad"
+msgstr "अल्पकालिक स्क्रैच पैड"
 
-#: data/io.github.nokse22.minitext.appdata.xml.in:14
-msgid "Nokse"
-msgstr "Nokse"
+#: data/io.github.nokse22.minitext.appdata.xml.in:46
+msgid "Added screenshot"
+msgstr "स्क्रीनशॉट जोड़ा गया"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:47
+msgid "Added branding colors"
+msgstr "ब्रांडिंग रंग जोड़े गए"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:106
+msgid "Mini text displaying text with a small window"
+msgstr "छोटी खिड़की के साथ पाठ प्रदर्शित करते हुए मिनी टेक्स्ट"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:111
+msgid "Mini text displaying text with a medium window"
+msgstr "मध्यम खिड़की के साथ पाठ प्रदर्शित करते हुए मिनी टेक्स्ट"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:116
+msgid "Mini text displaying text with a small window in dark mode"
+msgstr "गहरे मोड में छोटी खिड़की के साथ पाठ प्रदर्शित करने वाला मिनी टेक्स्ट"
 
 #: src/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -86,7 +98,7 @@ msgctxt "shortcut window"
 msgid "Reset Font Size"
 msgstr "फॉन्ट आकार रीसेट करें"
 
-#: src/main.py:101
+#: src/main.py:102
 msgid "translator-credits"
 msgstr "Scrambled777 <weblate.scrambled777@simplelogin.com>"
 
@@ -100,7 +112,7 @@ msgstr "पाठ का आकार घटाएं"
 
 #: src/window.ui:125
 msgid "Paste"
-msgstr "चिपकाएं"
+msgstr "पेस्ट करें"
 
 #: src/window.ui:135
 msgid "Copy"
