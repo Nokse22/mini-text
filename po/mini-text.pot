@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-25 16:06+0200\n"
+"POT-Creation-Date: 2024-05-26 23:54+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: data/io.github.nokse22.minitext.desktop.in:3
-#: data/io.github.nokse22.minitext.appdata.xml.in:9
+#: data/io.github.nokse22.minitext.appdata.xml.in:9 src/main.py:90
+#: src/window.ui:7
 msgid "Mini Text"
 msgstr ""
 
@@ -33,23 +34,35 @@ msgstr ""
 msgid "Ephemeral scratch pad"
 msgstr ""
 
-#: data/io.github.nokse22.minitext.appdata.xml.in:46
+#: data/io.github.nokse22.minitext.appdata.xml.in:47
 msgid "Added screenshot"
 msgstr ""
 
-#: data/io.github.nokse22.minitext.appdata.xml.in:47
+#: data/io.github.nokse22.minitext.appdata.xml.in:48
 msgid "Added branding colors"
 msgstr ""
 
-#: data/io.github.nokse22.minitext.appdata.xml.in:106
+#: data/io.github.nokse22.minitext.appdata.xml.in:49
+msgid "Added Hindi translation"
+msgstr ""
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:50
+msgid "Added Estonian translation"
+msgstr ""
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:51
+msgid "Added Bulgarian translation"
+msgstr ""
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:110
 msgid "Mini text displaying text with a small window"
 msgstr ""
 
-#: data/io.github.nokse22.minitext.appdata.xml.in:111
+#: data/io.github.nokse22.minitext.appdata.xml.in:115
 msgid "Mini text displaying text with a medium window"
 msgstr ""
 
-#: data/io.github.nokse22.minitext.appdata.xml.in:116
+#: data/io.github.nokse22.minitext.appdata.xml.in:120
 msgid "Mini text displaying text with a small window in dark mode"
 msgstr ""
 

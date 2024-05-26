@@ -87,7 +87,7 @@ class MiniTextApplication(Adw.Application):
     def on_about_action(self, *args):
         """Callback for the app.about action."""
         about = Adw.AboutDialog(
-                                application_name='Mini Text',
+                                application_name=_("Mini Text"),
                                 application_icon='io.github.nokse22.minitext',
                                 developer_name='Nokse',
                                 version='0.2.2',

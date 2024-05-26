@@ -4,7 +4,7 @@
   <requires lib="Adw" version="1.0"/>
   <template class="MiniTextWindow" parent="AdwApplicationWindow">
     <property name="modal">true</property>
-    <property name="title">Mini Text</property>
+    <property name="title" translatable="yes">Mini Text</property>
     <property name="height-request">178</property>
     <property name="width-request">360</property>
     <child>
