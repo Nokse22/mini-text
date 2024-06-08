@@ -1,0 +1,145 @@
+# Translation in Occitan.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Quentin PAGÈS, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-26 23:54+0200\n"
+"PO-Revision-Date: 2024-06-08 11:56+0200\n"
+"Last-Translator: Quentin PAGÈS\n"
+"Language-Team: \n"
+"Language: oc\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.3\n"
+
+#: data/io.github.nokse22.minitext.desktop.in:3
+#: data/io.github.nokse22.minitext.appdata.xml.in:9 src/main.py:90
+#: src/window.ui:7
+msgid "Mini Text"
+msgstr "Mini Text"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:11
+msgid ""
+"A very small and minimalistic digital scratch pad with minimal editing "
+"capabilities. Best used with 'Always on Top' and/or 'Always on Visible "
+"Workspace'. It doesn't save or load files, just your clipboard."
+msgstr ""
+"Un quasernet de nòtas plan petit e minimal amb de foncionalitats "
+"d‘edicion minimalas. De melhor utilizar amb « Totjorn al primièr plan "
+"» e/o « Totjorn visible sus l’espaci de trabalh ». Enregistra pas o "
+"carga pas cap de fichièr, sonque vòstre quichapapièrs."
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:15
+msgid "Ephemeral scratch pad"
+msgstr "Quasernet de nòtas efemèr"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:47
+msgid "Added screenshot"
+msgstr "Captura d’ecran aponduda"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:48
+msgid "Added branding colors"
+msgstr "Colors de marca apondudas"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:49
+msgid "Added Hindi translation"
+msgstr "Traduccion en indi aponduda"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:50
+msgid "Added Estonian translation"
+msgstr "Traduccion en estonian aponduda"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:51
+msgid "Added Bulgarian translation"
+msgstr "Traduccion en bulgar aponduda"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:110
+msgid "Mini text displaying text with a small window"
+msgstr "Mini text qu’aficha lo tèxt dins una pichona fenèstra"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:115
+msgid "Mini text displaying text with a medium window"
+msgstr "Mini text qu’aficha lo tèxt dins una fenèstra mejana"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:120
+msgid "Mini text displaying text with a small window in dark mode"
+msgstr ""
+"Mini text qu’aficha lo tèxt dins una pichona fenèstra en mòde escur"
+
+#: src/gtk/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "General"
+
+#: src/gtk/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Afichar los acorchis"
+
+#: src/gtk/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Quitar"
+
+#: src/gtk/help-overlay.ui:26
+msgctxt "shortcut window"
+msgid "Show About"
+msgstr "Mostrar A prepaus"
+
+#: src/gtk/help-overlay.ui:34
+msgctxt "shortcut window"
+msgid "Editor"
+msgstr "Editor"
+
+#: src/gtk/help-overlay.ui:37
+msgctxt "shortcut window"
+msgid "Increase Font Size"
+msgstr "Aumenta la talha de la polissa"
+
+#: src/gtk/help-overlay.ui:43
+msgctxt "shortcut window"
+msgid "Decrease Font Size"
+msgstr "Reduire la talha de la polissa"
+
+#: src/gtk/help-overlay.ui:49
+msgctxt "shortcut window"
+msgid "Reset Font Size"
+msgstr "Restablir la talha de la polissa"
+
+#: src/main.py:102
+msgid "translator-credits"
+msgstr "Quentin PAGÈS"
+
+#: src/window.ui:98
+msgid "Increase Text Size"
+msgstr "Aumentar la talha del tèxte"
+
+#: src/window.ui:109
+msgid "Decrease Text Size"
+msgstr "Reduire la talha del tèxte"
+
+#: src/window.ui:125
+msgid "Paste"
+msgstr "Pegar"
+
+#: src/window.ui:135
+msgid "Copy"
+msgstr "Copiar"
+
+#: src/window.ui:144
+msgid "Delete"
+msgstr "Suprimir"
+
+#: src/window.ui:168
+msgid "_Keyboard Shortcuts"
+msgstr "_Acorchis clavièr"
+
+#: src/window.ui:172
+msgid "_About Mini Text"
+msgstr "_A prepaus de Mini Text"
