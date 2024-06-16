@@ -1,14 +1,14 @@
 # ITALIAN TRANSLATION.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the mini-text package.
-# ALBANO BATTISTELLA <ALBANOBATTISTELLA@GMAIL.COM>, 2023.
+# ALBANO BATTISTELLA <ALBANOBATTISTELLA@GMAIL.COM>, 2023,2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: mini-text\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-14 18:05+0200\n"
-"PO-Revision-Date: 2023-08-19 13:40+0200\n"
+"PO-Revision-Date: 2024-06-16 13:40+0200\n"
 "Last-Translator: Albano Battistella <albanobattistella@gmail.com>\n"
 "Language-Team: Italian\n"
 "Language: it\n"
@@ -18,58 +18,125 @@ msgstr ""
 "X-Generator: Poedit 3.3.2\n"
 
 #: data/io.github.nokse22.minitext.desktop.in:3
-#: data/io.github.nokse22.minitext.appdata.xml.in:6
+#: data/io.github.nokse22.minitext.appdata.xml.in:9 src/main.py:90
+#: src/window.ui:7
 msgid "Mini Text"
-msgstr "Mini testo"
-
-#: data/io.github.nokse22.minitext.appdata.xml.in:8
-msgid ""
-"A very small and minimalistic text viewer with minimal editing capabilities. "
-"Best used with 'Always on Top' and/or 'Always on Visible Workspace'. It "
-"doesn't save or load files, just your clipboard. It is meant to be used as a "
-"place where to edit text to be pasted."
-msgstr ""
-"Un visualizzatore di testo molto piccolo e minimalista con capacità di modifica minime."
-"Utilizzato al meglio con 'Sempre in primo piano' e/o 'Area di lavoro sempre visibile'. "
-"Non salva o carica file, solo i tuoi appunti. È pensato per essere usato come "
-"posto dove modificare il testo da incollare."
-
-#: data/io.github.nokse22.minitext.appdata.xml.in:10
-msgid "Ephemeral text edits"
-msgstr "Modifiche effimere al testo"
+msgstr "Mini Testo"
 
 #: data/io.github.nokse22.minitext.appdata.xml.in:11
-msgid "Nokse"
+msgid ""
+"A very small and minimalistic digital scratch pad with minimal editing "
+"capabilities. Best used with 'Always on Top' and/or 'Always on Visible "
+"Workspace'. It doesn't save or load files, just your clipboard."
+msgstr ""
+"Un blocco note digitale molto piccolo e minimalista con capacità di modifiche "
+"minime. Da utilizzare preferibilmente con 'Sempre in primo piano' e/o 'Sempre visibile "
+"nell'Area di lavoro". Non salva né carica file, solo gli appunti."
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:15
+msgid "Ephemeral scratch pad"
+msgstr "Blocco note effimero"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:47
+msgid "Added screenshot"
+msgstr "Aggiunta schermata"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:48
+msgid "Added branding colors"
+msgstr "Aggiunti colori di branding"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:49
+msgid "Added Hindi translation"
+msgstr "Aggiunta la traduzione in hindi"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:50
+msgid "Added Estonian translation"
+msgstr "Aggiunta la traduzione estone"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:51
+msgid "Added Bulgarian translation"
+msgstr "Aggiunta la traduzione bulgara"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:110
+msgid "Mini text displaying text with a small window"
+msgstr "Mini testo che visualizza il testo in una piccola finestra"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:115
+msgid "Mini text displaying text with a medium window"
+msgstr "Mini testo che visualizza testo in una finestra media"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:120
+msgid "Mini text displaying text with a small window in dark mode"
+msgstr "Mini testo che visualizza il testo in una piccola finestra in modalità scura"
+
+#: src/gtk/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Generale"
+
+#: src/gtk/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Mostra scorciatoie"
+
+#: src/gtk/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Esci"
+
+#: src/gtk/help-overlay.ui:26
+msgctxt "shortcut window"
+msgid "Show About"
+msgstr "Mostra Informazioni"
+
+#: src/gtk/help-overlay.ui:34
+msgctxt "shortcut window"
+msgid "Editor"
 msgstr ""
 
-#: data/io.github.nokse22.minitext.appdata.xml.in:23
-msgid "Bug fixes"
-msgstr "Correzioni di bug"
+#: src/gtk/help-overlay.ui:37
+msgctxt "shortcut window"
+msgid "Increase Font Size"
+msgstr "Aumenta la dimensione del font"
 
-#: data/io.github.nokse22.minitext.appdata.xml.in:28
-msgid "Increase/descrease font size with ctrl+/-"
-msgstr "Aumenta/diminuisci la dimensione del carattere con ctrl+/-"
+#: src/gtk/help-overlay.ui:43
+msgctxt "shortcut window"
+msgid "Decrease Font Size"
+msgstr "Diminuisci la dimensione del font"
 
-#: data/io.github.nokse22.minitext.appdata.xml.in:33
-msgid "Increased padding"
-msgstr "Imbottitura maggiorata"
+#: src/gtk/help-overlay.ui:49
+msgctxt "shortcut window"
+msgid "Reset Font Size"
+msgstr "Ripristina dimensione font"
 
-#: data/io.github.nokse22.minitext.appdata.xml.in:38
-msgid "Added buttons to quickly copy and paste"
-msgstr "Aggiunti pulsanti per copiare e incollare rapidamente"
-
-#: data/io.github.nokse22.minitext.appdata.xml.in:43
-msgid "First release"
-msgstr "Primo rilascio"
+#: src/main.py:102
+msgid "translator-credits"
+msgstr "Albano Battistella"
 
 #: src/window.ui:98
-msgid "_Preferences"
-msgstr "_Preferenze"
+msgid "Increase Text Size"
+msgstr "Aumenta dimensione testo"
 
-#: src/window.ui:102
+#: src/window.ui:109
+msgid "Decrease Text Size"
+msgstr "Diminuisci dimensione testo"
+
+#: src/window.ui:125
+msgid "Paste"
+msgstr "Incolla"
+
+#: src/window.ui:135
+msgid "Copy"
+msgstr "Copia"
+
+#: src/window.ui:144
+msgid "Delete"
+msgstr "Elimina"
+
+#: src/window.ui:168
 msgid "_Keyboard Shortcuts"
-msgstr "_ Scorciatoie da tastiera"
+msgstr "_Scorciatoie da tastiera"
 
-#: src/window.ui:106
-msgid "_About Mini-text"
-msgstr "Informazioni su Mini-text"
+#: src/window.ui:172
+msgid "_About Mini Text"
+msgstr "_Informazioni sul mini text"
