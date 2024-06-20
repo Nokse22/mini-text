@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-11 12:23+0100\n"
-"PO-Revision-Date: 2023-12-14 00:36+1000\n"
+"POT-Creation-Date: 2024-05-26 23:54+0200\n"
+"PO-Revision-Date: 2024-06-20 23:48+1000\n"
 "Last-Translator: Ser82-png <asvmail.as@gmail.com>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -20,32 +20,59 @@ msgstr ""
 "X-Generator: Poedit 3.0.1\n"
 
 #: data/io.github.nokse22.minitext.desktop.in:3
-#: data/io.github.nokse22.minitext.appdata.xml.in:6
+#: data/io.github.nokse22.minitext.appdata.xml.in:9 src/main.py:90
+#: src/window.ui:7
 msgid "Mini Text"
 msgstr "Мини-текст"
 
-#: data/io.github.nokse22.minitext.appdata.xml.in:8
+#: data/io.github.nokse22.minitext.appdata.xml.in:11
 msgid ""
-"A very small and minimalistic text viewer with minimal editing capabilities. "
-"Best used with 'Always on Top' and/or 'Always on Visible Workspace'. It "
-"doesn't save or load files, just your clipboard. It is meant to be used as a "
-"place where to edit text to be pasted. Use Ctrl+Plus and Ctrl+Minus to "
-"change the font size."
+"A very small and minimalistic digital scratch pad with minimal editing "
+"capabilities. Best used with 'Always on Top' and/or 'Always on Visible "
+"Workspace'. It doesn't save or load files, just your clipboard."
 msgstr ""
-"Очень маленький и минималистичный просмотрщик текста с минимальными "
-"возможностями редактирования. Лучше всего использовать с «Поверх всех окон» "
-"и/или «Всегда в видимом рабочем пространстве». Он не сохраняет и не "
-"загружает файлы, использует только ваш буфер обмена. Он предназначен для "
-"использования в качестве места для редактирования вставляемого текста. Для "
-"изменения размера шрифта используйте Ctrl+Плюс и Ctrl+Минус."
+"Очень маленький и минималистичный блокнот с минимальными возможностями "
+"редактирования. Лучше всего использовать в режиме «Поверх всех окон» и/или "
+"«Всегда в видимом рабочем пространстве». Он не сохраняет и не загружает "
+"файлы, использует только ваш буфер обмена."
 
-#: data/io.github.nokse22.minitext.appdata.xml.in:13
-msgid "Ephemeral text edits"
-msgstr "Эфемерные правки текста"
+#: data/io.github.nokse22.minitext.appdata.xml.in:15
+msgid "Ephemeral scratch pad"
+msgstr "Эфемерный блокнот для записей"
 
-#: data/io.github.nokse22.minitext.appdata.xml.in:14
-msgid "Nokse"
-msgstr "Nokse"
+#: data/io.github.nokse22.minitext.appdata.xml.in:47
+msgid "Added screenshot"
+msgstr "Добавлен снимок экрана"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:48
+msgid "Added branding colors"
+msgstr "Добавлены фирменные цвета"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:49
+msgid "Added Hindi translation"
+msgstr "Добавлен перевод на хинди"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:50
+msgid "Added Estonian translation"
+msgstr "Добавлен перевод на эстонский язык"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:51
+msgid "Added Bulgarian translation"
+msgstr "Добавлен перевод на болгарский язык"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:110
+msgid "Mini text displaying text with a small window"
+msgstr "Отображение текста в окне маленького размера приложения «Мини-текст»"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:115
+msgid "Mini text displaying text with a medium window"
+msgstr "Отображение текста в окне среднего размера приложения «Мини-текст»"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:120
+msgid "Mini text displaying text with a small window in dark mode"
+msgstr ""
+"Отображение текста в окне маленького размера приложения «Мини-текст» с "
+"использованием тёмного режима"
 
 #: src/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -87,9 +114,9 @@ msgctxt "shortcut window"
 msgid "Reset Font Size"
 msgstr "Сбросить размер шрифта"
 
-#: src/main.py:101
+#: src/main.py:102
 msgid "translator-credits"
-msgstr "Ser82-png <asvmail.as@gmail.com>, 2023"
+msgstr "Ser82-png <asvmail.as@gmail.com>, 2023-2024"
 
 #: src/window.ui:98
 msgid "Increase Text Size"
@@ -118,6 +145,9 @@ msgstr "_Комбинации клавиш"
 #: src/window.ui:172
 msgid "_About Mini Text"
 msgstr "_О приложении"
+
+#~ msgid "Nokse"
+#~ msgstr "Nokse"
 
 #~ msgid "_Preferences"
 #~ msgstr "_Параметры"
