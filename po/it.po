@@ -31,7 +31,7 @@ msgid ""
 msgstr ""
 "Un blocco note digitale molto piccolo e minimalista con capacità di modifiche "
 "minime. Da utilizzare preferibilmente con 'Sempre in primo piano' e/o 'Sempre visibile "
-"nell'Area di lavoro". Non salva né carica file, solo gli appunti."
+"nell'Area di lavoro. Non salva né carica file, solo gli appunti."
 
 #: data/io.github.nokse22.minitext.appdata.xml.in:15
 msgid "Ephemeral scratch pad"
