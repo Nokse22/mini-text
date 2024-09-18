@@ -34,34 +34,28 @@ class MiniTextApplication(Adw.Application):
         super().__init__(application_id='io.github.nokse22.minitext',
                          flags=Gio.ApplicationFlags.DEFAULT_FLAGS)
 
-        css = '''
-        .textviewer{
-            padding: 12px;
-        }
-        '''
-        css_provider = Gtk.CssProvider()
-        css_provider.load_from_data(css, -1)
-        Gtk.StyleContext.add_provider_for_display(
-            Gdk.Display.get_default(),
-            css_provider,
-            Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
-        )
-
-        self.create_action('quit', lambda *_: self.quit(), ['<primary>q'])
-        self.create_action('about', self.on_about_action, ['F1'])
-        # self.create_action('preferences', self.on_preferences_action, ['<primary>comma'])
-        self.create_action('increase-font', self.on_increase_font_action, ['<control>plus', '<control>equal', '<control>KP_Add'])
-        self.create_action('decrease-font', self.on_decrease_font_action, ['<control>minus', '<control>KP_Subtract'])
-        self.create_action('reset-font', self.on_reset_font_action, ['<control>0', '<control>KP_0'])
+        self.create_action(
+            'quit', lambda *_: self.quit(), ['<primary>q'])
+        self.create_action(
+            'about', self.on_about_action, ['F1'])
+        self.create_action(
+            'increase-font', self.on_increase_font_action,
+            ['<control>plus', '<control>equal', '<control>KP_Add'])
+        self.create_action(
+            'decrease-font', self.on_decrease_font_action,
+            ['<control>minus', '<control>KP_Subtract'])
+        self.create_action(
+            'reset-font', self.on_reset_font_action,
+            ['<control>0', '<control>KP_0'])
 
     def on_increase_font_action(self, widget, _):
         self.win.on_increase_size_action()
 
     def on_decrease_font_action(self, widget, _):
         self.win.on_decrease_size_action()
-            
+
     def on_reset_font_action(self, widget, _):
-        self.win.settings.set_int('font-size', 14)
+        self.win.settings.set_int('font-size', 11)
         self.win.change_font()
 
     def do_activate(self):
@@ -87,24 +81,20 @@ class MiniTextApplication(Adw.Application):
     def on_about_action(self, *args):
         """Callback for the app.about action."""
         about = Adw.AboutDialog(
-                                application_name=_("Mini Text"),
-                                application_icon='io.github.nokse22.minitext',
-                                developer_name='Nokse',
-                                version='0.2.2',
-                                developers=['Nokse'],
-                                license_type="GTK_LICENSE_GPL_3_0",
-                                issue_url='https://github.com/Nokse22/mini-text/issues',
-                                website='https://github.com/Nokse22/mini-text',
-                                copyright='© 2023 Nokse')
-        
-        # Translator credits. Replace "translator-credits" with your name/username, and optionally an email or URL. 
+            application_name=_("Mini Text"),
+            application_icon='io.github.nokse22.minitext',
+            developer_name='Nokse',
+            version='1.0.0',
+            developers=['Nokse'],
+            license_type="GTK_LICENSE_GPL_3_0",
+            issue_url='https://github.com/Nokse22/mini-text/issues',
+            website='https://github.com/Nokse22/mini-text',
+            copyright='© 2023 Nokse')
+
+        # Translator credits. Replace "translator-credits" with your name/username, and optionally an email or URL.
         # One name per line, please do not remove previous names.
         about.set_translator_credits(_("translator-credits"))
         about.present(self.props.active_window)
-
-    # def on_preferences_action(self, widget, _):
-    #     """Callback for the app.preferences action."""
-    #     print('app.preferences action activated')
 
     def create_action(self, name, callback, shortcuts=None):
         """Add an application action.
@@ -126,4 +116,3 @@ def main(version):
     """The application's entry point."""
     app = MiniTextApplication()
     return app.run(sys.argv)
-
