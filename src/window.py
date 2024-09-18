@@ -20,6 +20,7 @@
 from gi.repository import Adw
 from gi.repository import Gtk, Gio, Gdk
 
+
 @Gtk.Template(resource_path='/io/github/nokse22/minitext/window.ui')
 class MiniTextWindow(Adw.ApplicationWindow):
     __gtype_name__ = 'MiniTextWindow'
@@ -33,10 +34,12 @@ class MiniTextWindow(Adw.ApplicationWindow):
         self.settings = Gio.Settings.new('io.github.nokse22.minitext')
 
         self.settings.bind(
-            "window-width", self, "default-width", Gio.SettingsBindFlags.DEFAULT
+            "window-width", self,
+            "default-width", Gio.SettingsBindFlags.DEFAULT
         )
         self.settings.bind(
-            "window-height", self, "default-height", Gio.SettingsBindFlags.DEFAULT
+            "window-height", self,
+            "default-height", Gio.SettingsBindFlags.DEFAULT
         )
 
         self.change_font()
@@ -53,7 +56,8 @@ class MiniTextWindow(Adw.ApplicationWindow):
 
         # Apply the theme to the GTK app
         context = self.text_view.get_style_context()
-        context.add_provider(style_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION)
+        context.add_provider(
+            style_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION)
 
     @Gtk.Template.Callback("on_decrease_size_action")
     def on_decrease_size_action(self, *args):
@@ -83,18 +87,23 @@ class MiniTextWindow(Adw.ApplicationWindow):
     @Gtk.Template.Callback("on_paste_action")
     def on_paste_action(self, *args):
         clipboard = Gdk.Display().get_default().get_clipboard()
+
         def callback(clipboard, res, data):
             text = clipboard.read_text_finish(res)
             text_buffer = self.text_view.get_buffer()
             text_buffer.set_text(text)
         data = {}
-        res = clipboard.read_text_async(None, callback, data)
+        clipboard.read_text_async(None, callback, data)
 
     @Gtk.Template.Callback("on_delete_action")
     def on_delete_action(self, *args):
         print("delete")
         text_buffer = self.text_view.get_buffer()
-        text_buffer.set_text("")
+        start = text_buffer.get_start_iter()
+        end = text_buffer.get_end_iter()
+        text_buffer.begin_user_action()
+        text_buffer.delete(start, end)
+        text_buffer.end_user_action()
 
     def copy_to_clipboard(self, text):
         clipboard = Gdk.Display().get_default().get_clipboard()
