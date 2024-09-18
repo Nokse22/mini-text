@@ -8,21 +8,22 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mini-text\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-25 16:06+0200\n"
-"PO-Revision-Date: 2024-05-26 12:23+0530\n"
+"POT-Creation-Date: 2024-05-26 23:54+0200\n"
+"PO-Revision-Date: 2024-06-20 15:21+0530\n"
 "Last-Translator: Scrambled777 <weblate.scrambled777@simplelogin.com>\n"
 "Language-Team: Hindi <indlinux-hindi@lists.sourceforge.net>\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Gtranslator 46.1\n"
 
 #: data/io.github.nokse22.minitext.desktop.in:3
-#: data/io.github.nokse22.minitext.appdata.xml.in:9
+#: data/io.github.nokse22.minitext.appdata.xml.in:9 src/main.py:90
+#: src/window.ui:7
 msgid "Mini Text"
-msgstr "Mini Text"
+msgstr "मिनी टेक्स्ट"
 
 #: data/io.github.nokse22.minitext.appdata.xml.in:11
 msgid ""
@@ -38,23 +39,35 @@ msgstr ""
 msgid "Ephemeral scratch pad"
 msgstr "अल्पकालिक स्क्रैच पैड"
 
-#: data/io.github.nokse22.minitext.appdata.xml.in:46
+#: data/io.github.nokse22.minitext.appdata.xml.in:47
 msgid "Added screenshot"
 msgstr "स्क्रीनशॉट जोड़ा गया"
 
-#: data/io.github.nokse22.minitext.appdata.xml.in:47
+#: data/io.github.nokse22.minitext.appdata.xml.in:48
 msgid "Added branding colors"
 msgstr "ब्रांडिंग रंग जोड़े गए"
 
-#: data/io.github.nokse22.minitext.appdata.xml.in:106
+#: data/io.github.nokse22.minitext.appdata.xml.in:49
+msgid "Added Hindi translation"
+msgstr "हिंदी अनुवाद जोड़ा गया"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:50
+msgid "Added Estonian translation"
+msgstr "एस्टोनियाई अनुवाद जोड़ा गया"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:51
+msgid "Added Bulgarian translation"
+msgstr "बल्गेरियाई अनुवाद जोड़ा गया"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:110
 msgid "Mini text displaying text with a small window"
 msgstr "छोटी खिड़की के साथ पाठ प्रदर्शित करते हुए मिनी टेक्स्ट"
 
-#: data/io.github.nokse22.minitext.appdata.xml.in:111
+#: data/io.github.nokse22.minitext.appdata.xml.in:115
 msgid "Mini text displaying text with a medium window"
 msgstr "मध्यम खिड़की के साथ पाठ प्रदर्शित करते हुए मिनी टेक्स्ट"
 
-#: data/io.github.nokse22.minitext.appdata.xml.in:116
+#: data/io.github.nokse22.minitext.appdata.xml.in:120
 msgid "Mini text displaying text with a small window in dark mode"
 msgstr "गहरे मोड में छोटी खिड़की के साथ पाठ प्रदर्शित करने वाला मिनी टेक्स्ट"
 
@@ -128,4 +141,4 @@ msgstr "कीबोर्ड शॉर्टकट (_K)"
 
 #: src/window.ui:172
 msgid "_About Mini Text"
-msgstr "Mini Text के बारे में (_A)"
+msgstr "मिनी टेक्स्ट के बारे में (_A)"
