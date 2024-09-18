@@ -91,7 +91,14 @@ class MiniTextWindow(Adw.ApplicationWindow):
         def callback(clipboard, res, data):
             text = clipboard.read_text_finish(res)
             text_buffer = self.text_view.get_buffer()
-            text_buffer.set_text(text)
+
+            start = text_buffer.get_start_iter()
+            end = text_buffer.get_end_iter()
+            text_buffer.begin_user_action()
+            text_buffer.delete(start, end)
+            text_buffer.insert(start, text)
+            text_buffer.end_user_action()
+
         data = {}
         clipboard.read_text_async(None, callback, data)
 
