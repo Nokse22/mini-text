@@ -42,6 +42,13 @@ Best used with 'Always on Top' and/or 'Always on Visible Workspace'. It doesn't 
   <url type="donation">https://ko-fi.com/nokse22</url>
 
   <releases>
+    <release version="1.0.0" date="2024-09-18">
+    	<description translatable="no">
+			  <p>Updated to GNOME 47</p>
+    	  <p>Enabled Ctrl+Z for delete action</p>
+    	  <p>Decreased default font size</p>
+		  </description>
+  	</release>
     <release version="0.2.2" date="2024-05-25">
     	<description translatable="no">
 			  <p>Added screenshot</p>
