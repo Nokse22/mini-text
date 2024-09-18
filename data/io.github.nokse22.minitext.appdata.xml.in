@@ -47,6 +47,8 @@ Best used with 'Always on Top' and/or 'Always on Visible Workspace'. It doesn't 
 			  <p>Updated to GNOME 47</p>
     	  <p>Enabled Ctrl+Z for delete action</p>
     	  <p>Decreased default font size</p>
+    	  <p>Added Hebrew translation (Yosef Or Boczko)</p>
+    	  <p>Added Occitan translation (Mejans)</p>
 		  </description>
   	</release>
     <release version="0.2.2" date="2024-05-25">
