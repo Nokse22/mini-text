@@ -43,7 +43,7 @@ Best used with 'Always on Top' and/or 'Always on Visible Workspace'. It doesn't 
 
   <releases>
     <release version="1.0.0" date="2024-09-18">
-    	<description translatable="no">
+    	<description translate="no">
 			  <p>Updated to GNOME 47</p>
     	  <p>Enabled Ctrl+Z for delete action</p>
     	  <p>Decreased default font size</p>
@@ -52,7 +52,7 @@ Best used with 'Always on Top' and/or 'Always on Visible Workspace'. It doesn't 
 		  </description>
   	</release>
     <release version="0.2.2" date="2024-05-25">
-    	<description translatable="no">
+    	<description translate="no">
 			  <p>Added screenshot</p>
     	  <p>Added branding colors</p>
     	  <p>Added Hindi translation</p>
