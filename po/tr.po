@@ -1,73 +1,56 @@
 # Turkish translation for minitext.
-# Copyright (C) 2023 minitext's COPYRIGHT HOLDER
+# Copyright (C) 2023, 2025 minitext's COPYRIGHT HOLDER
 # This file is distributed under the same license as the minitext package.
-# 
-# Sabri Ünal <libreajans@gmail.com>, 2023.
+#
+# Sabri Ünal <yakushabb@gmail.com>, 2023, 2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: minitext\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-08 23:45+0300\n"
-"PO-Revision-Date: 2023-09-08 23:46+0300\n"
-"Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
-"Language-Team: \n"
+"POT-Creation-Date: 2025-12-12 22:41+0300\n"
+"PO-Revision-Date: 2025-12-12 22:42+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.2.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.8\n"
 
-#: data/io.github.nokse22.minitext.desktop.in:3
-#: data/io.github.nokse22.minitext.appdata.xml.in:6
+#: data/io.github.nokse22.minitext.desktop.in:2
+#: data/io.github.nokse22.minitext.appdata.xml.in:9 src/main.py:80
+#: src/window.ui:7
 msgid "Mini Text"
 msgstr "Mini Metin"
 
-#: data/io.github.nokse22.minitext.appdata.xml.in:8
+#: data/io.github.nokse22.minitext.appdata.xml.in:11
 msgid ""
-"A very small and minimalistic text viewer with minimal editing capabilities. "
-"Best used with 'Always on Top' and/or 'Always on Visible Workspace'. It "
-"doesn't save or load files, just your clipboard. It is meant to be used as a "
-"place where to edit text to be pasted. Use Ctrl+Plus and Ctrl+Minus to "
-"change the font size."
+"A very small and minimalistic digital scratch pad with minimal editing "
+"capabilities. Best used with 'Always on Top' and/or 'Always on Visible "
+"Workspace'. It doesn't save or load files, just your clipboard."
 msgstr ""
+"En az düzenleme özelliklerine sahip, çok küçük ve minimalist not defteri. En "
+"güzel 'Her zaman üstte' ve/veya 'Her zaman görünür çalışma alanında' "
+"seçenekleriyle kullanılır. Dosyaları kaydetmez ya da yüklemez, sadece pano "
+"işlevi görür."
 
-#: data/io.github.nokse22.minitext.appdata.xml.in:13
-msgid "Ephemeral text edits"
-msgstr ""
+#: data/io.github.nokse22.minitext.appdata.xml.in:15
+msgid "Ephemeral scratch pad"
+msgstr "Geçici karalama defteri"
 
-#: data/io.github.nokse22.minitext.appdata.xml.in:14
-msgid "Nokse"
-msgstr "Nokse"
+#: data/io.github.nokse22.minitext.appdata.xml.in:119
+msgid "Mini text displaying text with a small window"
+msgstr "Küçük pencerede metin görüntüleyen mini metin"
 
-#: data/io.github.nokse22.minitext.appdata.xml.in:26
-msgid "Fixed bug with shortcuts"
-msgstr ""
+#: data/io.github.nokse22.minitext.appdata.xml.in:124
+msgid "Mini text displaying text with a medium window"
+msgstr "Orta boy pencerede metin görüntüleyen mini metin"
 
-#: data/io.github.nokse22.minitext.appdata.xml.in:27
-msgid "Draggable only by the side"
-msgstr ""
-
-#: data/io.github.nokse22.minitext.appdata.xml.in:32
-msgid "Bug fixes"
-msgstr ""
-
-#: data/io.github.nokse22.minitext.appdata.xml.in:37
-msgid "Increase/decrease font size with ctrl+/-"
-msgstr ""
-
-#: data/io.github.nokse22.minitext.appdata.xml.in:42
-msgid "Increased padding"
-msgstr ""
-
-#: data/io.github.nokse22.minitext.appdata.xml.in:47
-msgid "Added buttons to quickly copy and paste"
-msgstr ""
-
-#: data/io.github.nokse22.minitext.appdata.xml.in:52
-msgid "First release"
-msgstr "İlk sürüm"
+#: data/io.github.nokse22.minitext.appdata.xml.in:129
+msgid "Mini text displaying text with a small window in dark mode"
+msgstr "Koyu kipte küçük pencerede metin görüntüleyen mini metin"
 
 #: src/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -111,30 +94,34 @@ msgstr "Yazı Tipi Boyutunu Sıfırla"
 
 #. Translator credits. Replace "translator-credits" with your name/username, and optionally an email or URL.
 #. One name per line, please do not remove previous names.
-#: src/main.py:109
+#: src/main.py:92
 msgid "translator-credits"
-msgstr "Sabri Ünal <libreajans@gmail.com>"
+msgstr "Sabri Ünal <yakushabb@gmail.com>"
 
-#: src/window.ui:65
+#: src/window.ui:102
+msgid "Increase Text Size"
+msgstr "Metin Boyutunu Artır"
+
+#: src/window.ui:113
+msgid "Decrease Text Size"
+msgstr "Metin Boyutunu Azalt"
+
+#: src/window.ui:129
 msgid "Paste"
 msgstr "Yapıştır"
 
-#: src/window.ui:75
+#: src/window.ui:139
 msgid "Copy"
 msgstr "Kopyala"
 
-#: src/window.ui:84
+#: src/window.ui:148
 msgid "Delete"
 msgstr "Sil"
 
-#: src/window.ui:104
-msgid "_Preferences"
-msgstr "Ter_cihler"
-
-#: src/window.ui:108
+#: src/window.ui:170
 msgid "_Keyboard Shortcuts"
 msgstr "_Klavye Kısayolları"
 
-#: src/window.ui:112
-msgid "_About Mini-text"
-msgstr "Mini-text _Hakkında"
+#: src/window.ui:174
+msgid "_About Mini Text"
+msgstr "Mini Metin _Hakkında"
