@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-26 23:54+0200\n"
+"POT-Creation-Date: 2025-12-12 22:41+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,8 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: data/io.github.nokse22.minitext.desktop.in:3
-#: data/io.github.nokse22.minitext.appdata.xml.in:9 src/main.py:90
+#: data/io.github.nokse22.minitext.desktop.in:2
+#: data/io.github.nokse22.minitext.appdata.xml.in:9 src/main.py:80
 #: src/window.ui:7
 msgid "Mini Text"
 msgstr ""
@@ -34,35 +34,15 @@ msgstr ""
 msgid "Ephemeral scratch pad"
 msgstr ""
 
-#: data/io.github.nokse22.minitext.appdata.xml.in:47
-msgid "Added screenshot"
-msgstr ""
-
-#: data/io.github.nokse22.minitext.appdata.xml.in:48
-msgid "Added branding colors"
-msgstr ""
-
-#: data/io.github.nokse22.minitext.appdata.xml.in:49
-msgid "Added Hindi translation"
-msgstr ""
-
-#: data/io.github.nokse22.minitext.appdata.xml.in:50
-msgid "Added Estonian translation"
-msgstr ""
-
-#: data/io.github.nokse22.minitext.appdata.xml.in:51
-msgid "Added Bulgarian translation"
-msgstr ""
-
-#: data/io.github.nokse22.minitext.appdata.xml.in:110
+#: data/io.github.nokse22.minitext.appdata.xml.in:119
 msgid "Mini text displaying text with a small window"
 msgstr ""
 
-#: data/io.github.nokse22.minitext.appdata.xml.in:115
+#: data/io.github.nokse22.minitext.appdata.xml.in:124
 msgid "Mini text displaying text with a medium window"
 msgstr ""
 
-#: data/io.github.nokse22.minitext.appdata.xml.in:120
+#: data/io.github.nokse22.minitext.appdata.xml.in:129
 msgid "Mini text displaying text with a small window in dark mode"
 msgstr ""
 
@@ -106,34 +86,36 @@ msgctxt "shortcut window"
 msgid "Reset Font Size"
 msgstr ""
 
-#: src/main.py:102
+#. Translator credits. Replace "translator-credits" with your name/username, and optionally an email or URL.
+#. One name per line, please do not remove previous names.
+#: src/main.py:92
 msgid "translator-credits"
 msgstr ""
 
-#: src/window.ui:98
+#: src/window.ui:102
 msgid "Increase Text Size"
 msgstr ""
 
-#: src/window.ui:109
+#: src/window.ui:113
 msgid "Decrease Text Size"
 msgstr ""
 
-#: src/window.ui:125
+#: src/window.ui:129
 msgid "Paste"
 msgstr ""
 
-#: src/window.ui:135
+#: src/window.ui:139
 msgid "Copy"
 msgstr ""
 
-#: src/window.ui:144
+#: src/window.ui:148
 msgid "Delete"
 msgstr ""
 
-#: src/window.ui:168
+#: src/window.ui:170
 msgid "_Keyboard Shortcuts"
 msgstr ""
 
-#: src/window.ui:172
+#: src/window.ui:174
 msgid "_About Mini Text"
 msgstr ""
