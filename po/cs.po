@@ -1,0 +1,121 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <developerusingwindows@gmail.com>, 2025.
+# OS-Scratch <developerusingwindows@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mini-text\n"
+"Report-Msgid-Bugs-To: Lukas Ruzicka <lukas.ruzicka@gmail.com>\n"
+"POT-Creation-Date: 2026-02-24 12:50+0100\n"
+"PO-Revision-Date: 2026-02-24 12:50+0100\n"
+"Last-Translator: Lukas Ruzicka <lukas.ruzicka@gmail.com>\n"
+"Language-Team: Czech\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/io.github.nokse22.minitext.desktop.in:2
+#: data/io.github.nokse22.minitext.appdata.xml.in:9 src/main.py:80
+#: src/window.ui:7
+msgid "Mini Text"
+msgstr "Mini Text"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:11
+msgid ""
+"Velmi malý a minimalistický digitální zápisník s omezenými editačními "
+"schopnostmi. Nejlépe se používá v módu 'Vždy nahoře' a 'Vždy na viditelné ploše'. "
+"Neumí otevírat ani ukládat soubory. Pracuje pouze se schránkou."
+msgstr ""
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:15
+msgid "Ephemeral scratch pad"
+msgstr "Krátkodobý zápisník"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:119
+msgid "Mini text displaying text with a small window"
+msgstr "Mini text s textem v malém okně"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:124
+msgid "Mini text displaying text with a medium window"
+msgstr "Mini text s textem ve středním okně"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:129
+msgid "Mini text displaying text with a small window in dark mode"
+msgstr "Mini text s textem v malém okně v tmavém módu"
+
+#: src/gtk/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Obecné"
+
+#: src/gtk/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Zobrazit klávesové zkratky"
+
+#: src/gtk/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Konec"
+
+#: src/gtk/help-overlay.ui:26
+msgctxt "shortcut window"
+msgid "Show About"
+msgstr "Zobrazit informace o aplikaci"
+
+#: src/gtk/help-overlay.ui:34
+msgctxt "shortcut window"
+msgid "Editor"
+msgstr "Editor"
+
+#: src/gtk/help-overlay.ui:37
+msgctxt "shortcut window"
+msgid "Increase Font Size"
+msgstr "Zvětšit písmo"
+
+#: src/gtk/help-overlay.ui:43
+msgctxt "shortcut window"
+msgid "Decrease Font Size"
+msgstr "Zmenšit písmo"
+
+#: src/gtk/help-overlay.ui:49
+msgctxt "shortcut window"
+msgid "Reset Font Size"
+msgstr "Základní velikost písma"
+
+#. Translator credits. Replace "translator-credits" with your name/username, and optionally an email or URL.
+#. One name per line, please do not remove previous names.
+#: src/main.py:92
+msgid "translator-credits"
+msgstr "Lukas Ruzicka <lukas.ruzicka@gmail.com>"
+
+#: src/window.ui:102
+msgid "Increase Text Size"
+msgstr "Zvětšit písmo"
+
+#: src/window.ui:113
+msgid "Decrease Text Size"
+msgstr "Zmenšit písmo"
+
+#: src/window.ui:129
+msgid "Paste"
+msgstr "Vložit"
+
+#: src/window.ui:139
+msgid "Copy"
+msgstr "Kopírovat"
+
+#: src/window.ui:148
+msgid "Delete"
+msgstr "Smazat"
+
+#: src/window.ui:170
+msgid "_Keyboard Shortcuts"
+msgstr "_Klávesové zkratky"
+
+#: src/window.ui:174
+msgid "_About Mini Text"
+msgstr "Inform_Ace o aplikaci Mini Text"
