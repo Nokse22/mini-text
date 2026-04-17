@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-12 22:41+0300\n"
+"PO-Revision-Date: 2026-04-16 00:50+0200\n"
+"Last-Translator: Radoš Milićev <https://github.com/rammba>\n"
+"Language-Team: \n"
+"Language: sr@latin\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.8\n"
+
+#: data/io.github.nokse22.minitext.desktop.in:2
+#: data/io.github.nokse22.minitext.appdata.xml.in:9 src/main.py:80
+#: src/window.ui:7
+msgid "Mini Text"
+msgstr "Mini Text"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:11
+msgid ""
+"A very small and minimalistic digital scratch pad with minimal editing "
+"capabilities. Best used with 'Always on Top' and/or 'Always on Visible "
+"Workspace'. It doesn't save or load files, just your clipboard."
+msgstr ""
+"Veoma mala i minimalistička digitalna beležnica sa malim setom "
+"mogućnosti. Najbolje se koristi uz 'Uvek na vrhu' i/ili 'Uvek na "
+"vidljivoj radnoj površini'. Ne čuva niti učitava datoteke, samo Vaš "
+"clipboard."
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:15
+msgid "Ephemeral scratch pad"
+msgstr "Efemerna beležnica"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:119
+msgid "Mini text displaying text with a small window"
+msgstr "Mini text prikazuje tekst u malom prozoru"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:124
+msgid "Mini text displaying text with a medium window"
+msgstr "Mini text prikazuje tekst u srednjem prozoru"
+
+#: data/io.github.nokse22.minitext.appdata.xml.in:129
+msgid "Mini text displaying text with a small window in dark mode"
+msgstr "Mini text prikazuje tekst u malom prozoru u tamnom režimu"
+
+#: src/gtk/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Opšte"
+
+#: src/gtk/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Prikaži prečice"
+
+#: src/gtk/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Izađi"
+
+#: src/gtk/help-overlay.ui:26
+msgctxt "shortcut window"
+msgid "Show About"
+msgstr "Prikaži sekciju o programu"
+
+#: src/gtk/help-overlay.ui:34
+msgctxt "shortcut window"
+msgid "Editor"
+msgstr "Editor"
+
+#: src/gtk/help-overlay.ui:37
+msgctxt "shortcut window"
+msgid "Increase Font Size"
+msgstr "Povećaj veličinu fonta"
+
+#: src/gtk/help-overlay.ui:43
+msgctxt "shortcut window"
+msgid "Decrease Font Size"
+msgstr "Smanji veličinu fonta"
+
+#: src/gtk/help-overlay.ui:49
+msgctxt "shortcut window"
+msgid "Reset Font Size"
+msgstr "Resetuj veličinu fonta"
+
+#. Translator credits. Replace "translator-credits" with your name/username, and optionally an email or URL.
+#. One name per line, please do not remove previous names.
+#: src/main.py:92
+msgid "translator-credits"
+msgstr "Radoš Milićev: https://github.com/rammba"
+
+#: src/window.ui:102
+msgid "Increase Text Size"
+msgstr "Povećaj veličinu teksta"
+
+#: src/window.ui:113
+msgid "Decrease Text Size"
+msgstr "Smanji veličinu teksta"
+
+#: src/window.ui:129
+msgid "Paste"
+msgstr "Nalepi"
+
+#: src/window.ui:139
+msgid "Copy"
+msgstr "Kopiraj"
+
+#: src/window.ui:148
+msgid "Delete"
+msgstr "Obriši"
+
+#: src/window.ui:170
+msgid "_Keyboard Shortcuts"
+msgstr "_Prečice na tastaturi"
+
+#: src/window.ui:174
+msgid "_About Mini Text"
+msgstr "_O Mini Text"
